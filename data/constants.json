@@ -1,0 +1,33 @@
+{
+ "description": "Constants of the IV-band relation fitted to 11 donor-free homoleptic structures (unsubstituted and tert-butyl Lu, Y, La; octamethyl Y; LuPc2 rotation scan 25-40 deg; CAM-B3LYP/def2-TZVP at PBE0-D3BJ/def2-SVP geometries), the donor correction and the experimental scale factors. The Ca form is the primary form.",
+ "Ca_form": {
+  "equation": "nu = A * exp(-kappa*d_Ca) * (beta - cos(4*theta)) / (1 + beta)",
+  "A_cm-1": 466835.74058434373,
+  "kappa_per_A": 1.2905174150442367,
+  "beta": 0.17286005348662778,
+  "node_deg": 20.011462391610937,
+  "rms_cm-1": 34.60255257822466,
+  "loo_cm-1": 54.27386175813674,
+  "donor_c": -1.44249181541414,
+  "donor_residual_sd_pct": 1.5615352051704914,
+  "scale_exp": 0.7103653487115705,
+  "scale_sd": 0.01369900727012177,
+  "scale_exp_without_donor_correction": 0.6972631880955782
+ },
+ "N4_form": {
+  "equation": "nu = (p + q*d_N4) * (beta - cos(4*theta)) / (1 + beta)",
+  "p_cm-1": 28358.886402031094,
+  "q_cm-1_per_A": -6855.533410720864,
+  "beta": 0.160781169410071,
+  "node_deg": 20.186939754215146,
+  "rms_cm-1": 123.94290265212905,
+  "loo_cm-1": 149.67729672673008,
+  "donor_c": -0.9101542948898511,
+  "donor_residual_sd_pct": 2.433150825245812,
+  "scale_exp": 0.6960353408469995,
+  "scale_sd": 0.012133918998578129,
+  "scale_exp_without_donor_correction": 0.6879319397698076
+ },
+ "donor_correction": "nu = nu_relation * (1 + c * D_sub), where D_sub is the substituent share of the IV hole minus that of the particle (natural transition orbitals, code/nto_partition.py); D_sub = 0 without heteroatom donors. The scale factors apply to the corrected relation.",
+ "validity": "Homoleptic double-deckers with skew angles from about 25 deg (lowest fitted point; coupling node near 20 deg) to 45 deg. Heteroleptic sandwiches are outside the calibration."
+}

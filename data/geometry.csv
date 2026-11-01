@@ -1,0 +1,62 @@
+id,set,label,Ln,theta_deg,dN4_A,dCa_A,LnN_mean_A,LnN_range_A,h_N4_top_bot_A,cis_NLnN_deg,doming_top_bot_A
+LaPc1_td,fitting set,La-1 (tert-butyl),La,42.3,3.098,3.235,2.531,2.528–2.534,1.552 / 1.546,68.0,0.16 / 0.04
+LaPc2bare_td,fitting set,LaPc₂ (unsubstituted),La,45.0,3.084,3.241,2.529,2.529–2.529,1.542 / 1.542,68.2,0.20 / 0.20
+LuPc1_td,fitting set,Lu-1 (tert-butyl),Lu,44.0,2.668,2.957,2.379,2.376–2.382,1.336 / 1.332,71.7,0.40 / 0.30
+LuPc2bare_gas,fitting set,LuPc₂ (unsubstituted),Lu,45.0,2.649,2.972,2.377,2.377–2.377,1.324 / 1.324,71.9,0.53 / 0.53
+YPc1_td,fitting set,Y-1 (tert-butyl),Y,43.8,2.746,3.008,2.410,2.407–2.413,1.376 / 1.371,71.1,0.35 / 0.25
+YPc2bare_td,fitting set,YPc₂ (unsubstituted),Y,45.0,2.730,3.023,2.408,2.408–2.408,1.365 / 1.365,71.3,0.47 / 0.47
+YPc2_Me8_td,fitting set,Y[Pc(Me)₈]₂,Y,45.0,2.756,3.002,2.411,2.411–2.412,1.378 / 1.378,70.9,0.25 / 0.24
+EuPc3_td2,test,Eu-3 (bis(4-methoxyphenyl)amino),Eu,36.6,2.884,3.109,2.457,2.455–2.460,1.441 / 1.443,69.9,0.36 / 0.13
+EuPc2bare_lc_td2,test,"EuPc₂ (unsubstituted, large-core ECP)",Eu,45.0,2.848,3.097,2.451,2.450–2.451,1.424 / 1.424,70.3,0.38 / 0.38
+LaPc2_td,test,La-2 (methylthio),La,30.1,3.139,3.285,2.542,2.535–2.555,1.560 / 1.562,67.6,0.20 / 0.01
+LaPc3_td2,test,La-3 (bis(4-methoxyphenyl)amino),La,35.5,3.119,3.266,2.537,2.536–2.537,1.556 / 1.563,67.8,0.23 / 0.00
+LaPc4_td3,test,La-4 (phenothiazin-10-yl),La,45.0,3.147,3.256,2.541,2.541–2.541,1.573 / 1.573,67.5,-0.14 / -0.13
+LaPc5_td3,test,La-5 (phenoxazin-10-yl),La,43.9,3.133,3.257,2.539,2.538–2.540,1.572 / 1.561,67.6,-0.23 / 0.13
+LaPc6_td2,test,"La-6 (3,7-dimethoxyphenothiazin-10-yl)",La,45.0,3.140,3.246,2.540,2.540–2.540,1.570 / 1.570,67.5,-0.12 / -0.13
+LaPc7_td,test,La-7 (10-methylphenoxazin-3-yl),La,44.3,3.103,3.233,2.533,2.533–2.533,1.551 / 1.552,68.0,0.06 / 0.06
+LaPc8k_td2,test,La-8 (10-methylphenothiazin-3-yl) (eclipsed minimum),La,0.2,3.193,3.383,2.560,2.544–2.578,1.592 / 1.588,67.1,0.01 / 0.49
+LuPc2_td,test,Lu-2 (methylthio),Lu,41.9,2.672,2.952,2.379,2.377–2.382,1.336 / 1.336,71.6,0.35 / 0.30
+LuPc3_td2,test,Lu-3 (bis(4-methoxyphenyl)amino),Lu,37.6,2.684,2.977,2.383,2.379–2.387,1.344 / 1.341,71.5,0.47 / 0.24
+LuPc4_td2,test,Lu-4 (phenothiazin-10-yl),Lu,45.0,2.707,2.974,2.385,2.385–2.385,1.353 / 1.353,71.2,0.10 / 0.10
+LuPc5_td2,test,Lu-5 (phenoxazin-10-yl),Lu,44.0,2.696,2.975,2.384,2.381–2.387,1.346 / 1.349,71.4,0.05 / 0.34
+LuPc6_td2,test,"Lu-6 (3,7-dimethoxyphenothiazin-10-yl)",Lu,45.0,2.703,2.967,2.385,2.385–2.385,1.352 / 1.351,71.3,0.11 / 0.11
+LuPc7_td,test,Lu-7 (10-methylphenoxazin-3-yl),Lu,44.7,2.673,2.957,2.380,2.380–2.380,1.336 / 1.337,71.6,0.32 / 0.31
+LuPc8_td,test,Lu-8 (10-methylphenothiazin-3-yl),Lu,29.9,2.721,3.016,2.393,2.377–2.413,1.360 / 1.358,71.1,0.45 / 0.24
+LuPc8_k2_td3,test,"Lu-8 (10-methylphenothiazin-3-yl), second conformer",Lu,35.5,2.701,2.987,2.387,2.378–2.397,1.350 / 1.349,71.3,0.23 / 0.33
+LuPc2_SBu_kurt_td,test,Lu[Pc(SBu)₈]₂,Lu,37.5,2.684,2.976,2.382,2.375–2.393,1.342 / 1.342,71.5,0.39 / 0.30
+LuPc2_SEt_opt_td,test,Lu[Pc(SEt)₈]₂,Lu,33.1,2.710,2.988,2.388,2.382–2.396,1.355 / 1.355,71.2,0.33 / 0.23
+LuPc2_SHx_kurt2_td,test,Lu[Pc(SHx)₈]₂,Lu,36.8,2.684,2.983,2.383,2.376–2.392,1.341 / 1.343,71.5,0.41 / 0.34
+YPc2_td,test,Y-2 (methylthio),Y,40.6,2.755,3.007,2.411,2.409–2.414,1.377 / 1.378,71.0,0.31 / 0.26
+YPc3_td3,test,Y-3 (bis(4-methoxyphenyl)amino),Y,37.2,2.767,3.031,2.415,2.412–2.418,1.384 / 1.383,70.8,0.42 / 0.20
+YPc4_td3,test,Y-4 (phenothiazin-10-yl),Y,45.0,2.792,3.028,2.418,2.418–2.418,1.396 / 1.396,70.5,0.06 / 0.06
+YPc5_td3,test,Y-5 (phenoxazin-10-yl),Y,44.1,2.779,3.028,2.416,2.414–2.418,1.389 / 1.390,70.7,-0.01 / 0.30
+YPc6_td2,test,"Y-6 (3,7-dimethoxyphenothiazin-10-yl)",Y,45.0,2.787,3.020,2.417,2.417–2.417,1.394 / 1.394,70.6,0.07 / 0.07
+YPc7_td3,test,Y-7 (10-methylphenoxazin-3-yl),Y,44.6,2.756,3.010,2.412,2.412–2.412,1.378 / 1.378,71.0,0.27 / 0.26
+YPc8_td3,test,Y-8 (10-methylphenothiazin-3-yl),Y,28.3,2.806,3.076,2.426,2.410–2.446,1.402 / 1.398,70.5,0.43 / 0.20
+YPc2_OMe8_td2,test,"Y[Pc(OMe)₈]₂ (invalid geometry, see S11)",Y,43.7,2.768,3.003,2.412,2.406–2.418,1.386 / 1.382,70.8,0.17 / 0.20
+LuAB_x,xray,Lu[Pc(SC₆H₁₃)₄]₂ (ABAB),Lu,44.5,2.656,2.968,2.361,2.355–2.366,1.328 / 1.328,71.6,0.45 / 0.45
+NdAB_x,xray,Nd[Pc(SC₆H₁₃)₄]₂ (ABAB),Nd,44.4,2.956,3.154,2.471,2.465–2.477,1.478 / 1.478,69.0,0.29 / 0.29
+EuAB_x,xray,Eu[Pc(SC₆H₁₃)₄]₂ (ABAB),Eu,44.4,2.842,3.086,2.437,2.427–2.446,1.421 / 1.421,70.1,0.35 / 0.35
+DyAB_x,xray,Dy[Pc(SC₆H₁₃)₄]₂ (ABAB),Dy,43.8,2.775,3.049,2.407,2.402–2.412,1.387 / 1.388,70.6,0.40 / 0.40
+YAB_x,xray,Y[Pc(SC₆H₁₃)₄]₂ (ABAB),Y,44.2,2.747,3.021,2.400,2.399–2.400,1.374 / 1.373,70.9,0.41 / 0.41
+LuPh8_x,xray,Lu(Ph₈Pc)₂,Lu,44.7,2.667,2.956,2.367,2.366–2.369,1.335 / 1.332,71.5,0.46 / 0.46
+LuSHx_x,xray,Lu[Pc(SC₆H₁₃)₈]₂,Lu,41.6,2.704,3.000,2.383,2.376–2.394,1.350 / 1.350,71.2,0.41 / 0.41
+SmHt_x,xray,Sm(Pc)[Pc(OCH(C₂H₅)₂)₄],Sm,42.3,2.879,3.235,2.456,2.435–2.480,1.412 / 1.467,69.9,0.74 / 0.81
+EuHt_x,xray,Eu(Pc)[Pc(OCH(C₂H₅)₂)₄],Eu,42.4,2.840,3.189,2.432,2.419–2.447,1.404 / 1.436,70.1,0.72 / 0.79
+ErHt_x,xray,Er(Pc)[Pc(OCH(C₂H₅)₂)₄],Er,43.8,2.710,3.116,2.397,2.380–2.416,1.348 / 1.360,71.4,0.77 / 0.97
+TbNBu_x,xray,(Pc)Tb[Pc(NBu₂)₈],Tb,43.5,2.779,3.129,2.415,2.407–2.425,1.389 / 1.389,70.7,0.81 / 0.72
+LaHt7_opt_td,heteroleptic,La(Pc)(Pc–N-methylphenoxazinyl),La,42.4,3.091,3.244,2.531,2.531–2.531,1.542 / 1.549,68.1,0.28 / 0.04
+YHt4_opt_td,heteroleptic,Y(Pc)(Pc–phenothiazin-10-yl),Y,43.2,2.750,3.021,2.412,2.411–2.413,1.371 / 1.379,71.0,0.51 / 0.15
+YHt7_opt_td,heteroleptic,Y(Pc)(Pc–N-methylphenoxazinyl),Y,42.7,2.743,3.016,2.410,2.408–2.413,1.372 / 1.371,71.1,0.46 / 0.29
+YHt8_td2,heteroleptic,Y(Pc)(Pc–N-methylphenothiazinyl),Y,42.6,2.746,3.013,2.411,2.408–2.412,1.374 / 1.372,71.1,0.25 / 0.43
+LuHt3_td2,heteroleptic,Lu(Pc)(Pc–bis(4-methoxyphenyl)amino),Lu,44.0,2.691,2.967,2.384,2.377–2.392,1.348 / 1.343,71.4,0.49 / -0.04
+LuHtNMe2_opt_td,heteroleptic,Lu(Pc)(Pc–dimethylamino),Lu,43.5,2.663,2.969,2.379,2.374–2.385,1.337 / 1.327,71.8,0.49 / 0.39
+YHt_Me8_td,heteroleptic,Y(Pc)(Pc–octamethyl),Y,45.0,2.737,3.016,2.409,2.406–2.412,1.371 / 1.366,71.2,0.43 / 0.38
+YHt_OMe8_td,heteroleptic,Y(Pc)(Pc–octamethoxy),Y,44.6,2.746,3.015,2.409,2.399–2.416,1.378 / 1.368,71.0,0.43 / 0.28
+LuHt1_td2,heteroleptic,Lu(Pc)(Pc–tert-butyl),Lu,44.2,2.655,2.966,2.378,2.377–2.379,1.327 / 1.328,71.8,0.44 / 0.49
+LuHt2_td2,heteroleptic,Lu(Pc)(Pc–octakis(methylthio)),Lu,43.6,2.669,2.956,2.379,2.378–2.381,1.332 / 1.337,71.7,0.48 / 0.20
+LuHt4_td2,heteroleptic,Lu(Pc)(Pc–phenothiazin-10-yl),Lu,43.6,2.667,2.968,2.380,2.380–2.380,1.329 / 1.338,71.7,0.55 / 0.23
+LuHt5_td2,heteroleptic,Lu(Pc)(Pc–phenoxazin-10-yl),Lu,42.3,2.666,2.971,2.380,2.380–2.380,1.338 / 1.328,71.7,0.23 / 0.57
+LuHt6_td2,heteroleptic,"Lu(Pc)(Pc–3,7-dimethoxyphenothiazin-10-yl)",Lu,43.8,2.666,2.968,2.380,2.379–2.380,1.337 / 1.329,71.7,0.23 / 0.55
+LuHt7_td2,heteroleptic,Lu(Pc)(Pc–N-methylphenoxazinyl),Lu,42.8,2.661,2.963,2.378,2.376–2.381,1.332 / 1.329,71.8,0.50 / 0.35
+LuHt8_td2,heteroleptic,Lu(Pc)(Pc–N-methylphenothiazinyl),Lu,43.0,2.662,2.961,2.379,2.376–2.381,1.331 / 1.331,71.7,0.33 / 0.48

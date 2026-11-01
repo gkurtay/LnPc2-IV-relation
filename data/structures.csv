@@ -1,0 +1,182 @@
+id,label,metal,set,functional,theta_deg,d_N4_A,d_Ca_A,IV_cm-1,f_osc,D_sub,in_donor_regression,dev_Ca_pct,dev_Ca_donor_corrected_pct,dev_N4_pct,dev_N4_donor_corrected_pct,ring_spin_asym_a,S2,S2_IV_state
+SBu_r376_SMe_td2,"LuPc₂ butylthio ring shape, methylthio chains, rotated to 37.5°",Lu,mechanism,CAM-B3LYP,37.505,2.6844,2.9763,8519.0,0.1054,0.019,yes,-4.07,-1.37,-3.28,-1.58,-0.002,0.7856,0.8215
+SBu_r45_SMe_td2,"LuPc₂ butylthio ring shape, methylthio chains, rotated to 44.8°",Lu,mechanism,CAM-B3LYP,44.838,2.6844,2.9763,9504.0,0.1217,0.029,yes,-5.19,-1.05,-4.53,-1.94,0.021,0.7852,0.8166
+LaPc2bare_cb_td2,"LaPc₂, CPCM",La,solvent,CAM-B3LYP,44.966,3.0835,3.2414,6446.0,0.1370,0.000,no,-9.46,-9.47,-10.72,-10.72,-0.001,0.7860,0.8074
+LaPc2_cb_td2,"La-2 (methylthio), CPCM",La,solvent,CAM-B3LYP,30.106,3.1387,3.2853,3551.0,0.0673,0.001,no,-8.86,-8.72,-9.69,-9.61,0.052,0.7920,0.8154
+YPc2_OMe8_td2,"Y[Pc(OMe)₈]₂ (invalid geometry, see S11)",Y,test,CAM-B3LYP,43.719,2.7683,3.0026,9766.0,0.1125,0.006,no,1.13,2.01,4.47,5.05,-0.140,1.7882,1.8169
+EuPc3_td2,Eu-3 (bis(4-methoxyphenyl)amino),Eu,test,CAM-B3LYP,36.564,2.8839,3.1086,6818.0,0.0626,0.040,yes,-5.79,-0.02,-7.13,-3.63,-0.186,0.7859,0.8087
+EuPc3s_k_b3_td2,"Eu in the Eu-3 skeleton, donors removed",Eu,mechanism,B3LYP,36.565,2.8839,3.1087,7760.0,0.1067,0.000,no,7.24,7.24,5.69,5.69,-0.015,0.7627,0.7724
+EuPc3s_k_pb_td2,"Eu in the Eu-3 skeleton, donors removed",Eu,mechanism,PBE0,36.565,2.8839,3.1087,7739.0,0.1072,0.000,no,6.95,6.95,5.41,5.41,-0.016,0.7688,0.7817
+EuPc3s_k_wb_td2,"Eu in the Eu-3 skeleton, donors removed",Eu,mechanism,ωB97X-D3,36.565,2.8839,3.1087,7033.0,0.1005,0.000,no,-2.81,-2.81,-4.21,-4.21,-0.047,0.7958,0.8251
+LuEuPc3s_k_b3_td2,"Lu in the Eu-3 skeleton, donors removed",Lu,mechanism,B3LYP,36.565,2.8839,3.1087,7751.0,0.1065,0.000,no,7.11,7.12,5.57,5.57,-0.016,0.7627,0.7724
+LuEuPc3s_k_wb_td2,"Lu in the Eu-3 skeleton, donors removed",Lu,mechanism,ωB97X-D3,36.565,2.8839,3.1087,7033.0,0.1003,0.000,no,-2.81,-2.81,-4.21,-4.21,-0.050,0.7957,0.8252
+LuPc3i_b3_td2,ideal rings of LuPc₂ at the d_N4/θ of Lu-3,Lu,mechanism,B3LYP,37.619,2.6844,3.0075,8724.0,0.1266,0.000,no,1.88,1.88,-1.34,-1.33,0.000,0.7626,0.7731
+LuPc3i_pb_td2,ideal rings of LuPc₂ at the d_N4/θ of Lu-3,Lu,mechanism,PBE0,37.619,2.6844,3.0075,8761.0,0.1277,0.000,no,2.32,2.31,-0.92,-0.92,-0.000,0.7684,0.7826
+LuPc3i_wb_td2,ideal rings of LuPc₂ at the d_N4/θ of Lu-3,Lu,mechanism,ωB97X-D3,37.619,2.6844,3.0075,8277.0,0.1234,0.000,no,-3.34,-3.34,-6.39,-6.39,0.000,0.7942,0.8267
+LuPc3r45_b3_td2,"Lu-3 skeleton, donors removed, rotated to 45.0°",Lu,mechanism,B3LYP,44.975,2.6844,2.9771,10094.0,0.1364,0.000,no,0.80,0.80,1.39,1.39,-0.005,0.7628,0.7748
+LuPc3r45_pb_td2,"Lu-3 skeleton, donors removed, rotated to 45.0°",Lu,mechanism,PBE0,44.975,2.6844,2.9771,10179.0,0.1373,0.000,no,1.65,1.65,2.24,2.24,-0.004,0.7688,0.7848
+LuPc3r45_wb_td2,"Lu-3 skeleton, donors removed, rotated to 45.0°",Lu,mechanism,ωB97X-D3,44.975,2.6844,2.9771,9875.0,0.1349,0.000,no,-1.39,-1.39,-0.81,-0.81,-0.014,0.7945,0.8305
+LuPc3s_b3_td2,"Lu in the Lu-3 skeleton, donors removed",Lu,mechanism,B3LYP,37.622,2.6844,2.9771,9054.0,0.1134,0.000,no,1.66,1.66,2.39,2.39,-0.009,0.7625,0.7734
+LuPc3s_pb_td2,"Lu in the Lu-3 skeleton, donors removed",Lu,mechanism,PBE0,37.622,2.6844,2.9771,9121.0,0.1151,0.000,no,2.41,2.41,3.14,3.14,-0.009,0.7683,0.7830
+LuPc3s_wb_td2,"Lu in the Lu-3 skeleton, donors removed",Lu,mechanism,ωB97X-D3,37.622,2.6844,2.9771,8732.0,0.1149,0.000,no,-1.96,-1.95,-1.26,-1.26,-0.025,0.7942,0.8278
+LuPc4i_b3_td2,ideal rings of LuPc₂ at the d_N4/θ of Lu-4,Lu,mechanism,B3LYP,44.971,2.7067,3.0298,9477.0,0.1496,0.000,no,1.30,1.29,-3.33,-3.33,-0.001,0.7628,0.7740
+LuPc4i_pb_td2,ideal rings of LuPc₂ at the d_N4/θ of Lu-4,Lu,mechanism,PBE0,44.971,2.7067,3.0298,9518.0,0.1501,0.000,no,1.74,1.73,-2.91,-2.91,-0.000,0.7688,0.7837
+LuPc4i_wb_td2,ideal rings of LuPc₂ at the d_N4/θ of Lu-4,Lu,mechanism,ωB97X-D3,44.971,2.7067,3.0298,9042.0,0.1422,0.000,no,-3.35,-3.36,-7.76,-7.76,-0.001,0.7944,0.8285
+LuPc4r37_b3_td2,"Lu-4 skeleton, donors removed, rotated to 37.6°",Lu,mechanism,B3LYP,37.619,2.7067,2.9739,9419.0,0.0993,0.000,no,5.33,5.33,8.18,8.19,-0.011,0.7625,0.7736
+LuPc4r37_pb_td2,"Lu-4 skeleton, donors removed, rotated to 37.6°",Lu,mechanism,PBE0,37.619,2.7067,2.9739,9501.0,0.1008,0.000,no,6.25,6.25,9.13,9.13,-0.011,0.7684,0.7832
+LuPc4r37_wb_td2,"Lu-4 skeleton, donors removed, rotated to 37.6°",Lu,mechanism,ωB97X-D3,37.619,2.7067,2.9739,9084.0,0.1019,0.000,no,1.59,1.59,4.34,4.34,-0.021,0.7944,0.8280
+LuPc4s_b3_td2,"Lu in the Lu-4 skeleton, donors removed",Lu,mechanism,B3LYP,44.972,2.7067,2.9739,10343.0,0.1175,0.000,no,2.86,2.86,5.51,5.51,0.001,0.7627,0.7747
+LuPc4s_pb_td2,"Lu in the Lu-4 skeleton, donors removed",Lu,mechanism,PBE0,44.972,2.7067,2.9739,10439.0,0.1186,0.000,no,3.82,3.82,6.49,6.49,-0.001,0.7686,0.7847
+LuPc4s_wb_td2,"Lu in the Lu-4 skeleton, donors removed",Lu,mechanism,ωB97X-D3,44.972,2.7067,2.9739,10120.0,0.1186,0.000,no,0.64,0.65,3.23,3.23,-0.003,0.7943,0.8300
+LaPc2bare_g_b3lyp_td,"LaPc₂ (unsubstituted), geometry B3LYP-D3BJ/def2-SVP",La,geometry protocol,CAM-B3LYP,44.950,3.1062,3.2440,7211.0,0.1136,0.000,no,1.62,1.62,2.08,2.08,0.001,0.7888,0.8125
+LaPc2bare_g_nod3_td,"LaPc₂ (unsubstituted), geometry PBE0/def2-SVP (no dispersion)",La,geometry protocol,CAM-B3LYP,44.943,3.1448,3.5560,4507.0,0.1256,0.000,no,-5.00,-5.00,-33.72,-33.72,0.000,0.7868,0.8059
+LaPc2bare_g_tz_td,"LaPc₂ (unsubstituted), geometry PBE0-D3BJ/def2-TZVP",La,geometry protocol,CAM-B3LYP,44.992,3.1269,3.3104,6458.0,0.1170,0.000,no,-0.85,-0.84,-6.71,-6.70,0.000,0.7864,0.8078
+LaPc2_g_b3lyp_td,"La-2, geometry B3LYP-D3BJ/def2-SVP",La,geometry protocol,CAM-B3LYP,30.203,3.1571,3.3042,4000.0,0.0551,0.003,no,4.30,4.76,2.74,3.03,-0.022,0.7988,0.8235
+LaPc2_g_nod3_td,"La-2, geometry PBE0/def2-SVP (no dispersion)",La,geometry protocol,CAM-B3LYP,39.498,3.1506,3.4184,4918.0,0.1013,0.015,no,-7.45,-5.41,-22.37,-21.29,-0.000,0.7868,0.8067
+LuPc2bare_g_b3lyp_td,"LuPc₂ (unsubstituted), geometry B3LYP-D3BJ/def2-SVP",Lu,geometry protocol,CAM-B3LYP,44.973,2.6736,2.9850,9970.0,0.1463,0.000,no,0.58,0.59,-0.60,-0.60,-0.001,0.7867,0.8165
+LuPc2bare_g_nod3_td,"LuPc₂ (unsubstituted), geometry PBE0/def2-SVP (no dispersion)",Lu,geometry protocol,CAM-B3LYP,44.965,2.6590,3.0931,8306.0,0.1650,0.000,no,-3.66,-3.67,-18.01,-18.01,-0.000,0.7852,0.8104
+LuPc2bare_g_tz_td,"LuPc₂ (unsubstituted), geometry PBE0-D3BJ/def2-TZVP",Lu,geometry protocol,CAM-B3LYP,44.997,2.6789,3.0153,9439.0,0.1511,0.000,no,-0.98,-0.98,-5.55,-5.55,0.000,0.7847,0.8118
+YPc2bare_g_b3lyp_td,"YPc₂ (unsubstituted), geometry B3LYP-D3BJ/def2-SVP",Y,geometry protocol,CAM-B3LYP,44.969,2.7549,3.0331,9388.0,0.1401,0.000,no,0.78,0.77,-0.89,-0.90,-0.000,0.7872,0.8155
+YPc2bare_g_nod3_td,"YPc₂ (unsubstituted), geometry PBE0/def2-SVP (no dispersion)",Y,geometry protocol,CAM-B3LYP,44.962,2.7466,3.1712,7480.0,0.1580,0.000,no,-4.04,-4.04,-21.51,-21.50,0.000,0.7856,0.8093
+YPc2bare_g_tz_td,"YPc₂ (unsubstituted), geometry PBE0-D3BJ/def2-TZVP",Y,geometry protocol,CAM-B3LYP,44.964,2.7568,3.0677,8820.0,0.1455,0.000,no,-1.00,-1.00,-6.76,-6.77,0.000,0.7851,0.8108
+LaHt7_opt_td,La(Pc)(Pc–N-methylphenoxazinyl),La,heteroleptic,CAM-B3LYP,42.391,3.0913,3.2437,6912.9,0.0999,0.005,no,-1.23,-0.51,-2.14,-1.69,-0.212,0.7879,0.8095
+YHt4_opt_td,Y(Pc)(Pc–phenothiazin-10-yl),Y,heteroleptic,CAM-B3LYP,43.172,2.7499,3.0213,9552.8,0.0996,0.005,no,1.70,2.44,1.19,1.66,0.226,0.7872,0.8137
+YHt7_opt_td,Y(Pc)(Pc–N-methylphenoxazinyl),Y,heteroleptic,CAM-B3LYP,42.726,2.7428,3.0163,9260.2,0.1260,0.009,no,-1.67,-0.38,-2.03,-1.22,-0.120,0.7856,0.8124
+YHt8_td2,Y(Pc)(Pc–N-methylphenothiazinyl),Y,heteroleptic,CAM-B3LYP,42.550,2.7461,3.0132,9313.7,0.1171,0.006,no,-1.33,-0.47,-1.06,-0.51,0.041,0.7859,0.8159
+DyAB_k_td2,"Dy[Pc(SC₆H₁₃)₄]₂ (ABAB) X-ray geometry, Dy→Lu",Lu,TD at X-ray geometry,CAM-B3LYP,43.786,2.7750,3.0490,8873.0,0.1347,0.011,yes,-2.48,-0.91,-4.65,-3.69,-0.000,0.7880,0.8157
+ErHt_k_td2,"Er(Pc)[Pc(OCH(C₂H₅)₂)₄] X-ray geometry, Er→Lu",Lu,TD at X-ray geometry,CAM-B3LYP,43.787,2.7096,3.1165,7975.0,0.1471,0.006,no,-4.37,-3.54,-18.23,-17.78,-0.102,0.8152,0.8824
+EuAB_k_eu_td2,"Eu[Pc(SC₆H₁₃)₄]₂ (ABAB) X-ray geometry, Eu (large-core ECP)",Eu,TD at X-ray geometry,CAM-B3LYP,44.385,2.8410,3.0855,8520.0,0.1317,0.013,yes,-2.07,-0.20,-4.00,-2.85,0.000,0.7869,0.8126
+EuAB_k_td2,"Eu[Pc(SC₆H₁₃)₄]₂ (ABAB) X-ray geometry, Eu→Lu",Lu,TD at X-ray geometry,CAM-B3LYP,44.385,2.8410,3.0855,8507.0,0.1313,0.013,yes,-2.22,-0.35,-4.15,-3.00,0.000,0.7868,0.8126
+EuHt_k_td2,"Eu(Pc)[Pc(OCH(C₂H₅)₂)₄] X-ray geometry, Eu→Lu",Lu,TD at X-ray geometry,CAM-B3LYP,42.432,2.8399,3.1885,7089.0,0.1439,0.007,no,-5.72,-4.76,-19.14,-18.62,-0.057,0.7906,0.8191
+LuAB_k_td2,Lu[Pc(SC₆H₁₃)₄]₂ (ABAB) X-ray geometry,Lu,TD at X-ray geometry,CAM-B3LYP,44.521,2.6560,2.9685,9862.0,0.1427,0.014,yes,-2.56,-0.55,-2.80,-1.54,-0.000,0.7852,0.8139
+NdAB_k_td2,"Nd[Pc(SC₆H₁₃)₄]₂ (ABAB) X-ray geometry, Nd→Lu",Lu,TD at X-ray geometry,CAM-B3LYP,44.434,2.9560,3.1540,7726.0,0.1236,0.013,yes,-3.00,-1.15,-4.48,-3.33,0.000,0.7873,0.8117
+SmHt_k_td2,"Sm(Pc)[Pc(OCH(C₂H₅)₂)₄] X-ray geometry, Sm→Lu",Lu,TD at X-ray geometry,CAM-B3LYP,42.245,2.8791,3.2347,6594.0,0.1368,0.005,no,-6.72,-6.04,-22.28,-21.92,-0.139,0.7998,0.8453
+TbNBu_k_td2,"(Pc)Tb[Pc(NBu₂)₈] X-ray geometry, Tb→Lu",Lu,TD at X-ray geometry,CAM-B3LYP,43.532,2.7786,3.1295,8391.0,0.0670,-0.005,no,2.46,1.73,-9.46,-9.87,0.364,0.7973,1.0853
+YAB_k_td2,Y[Pc(SC₆H₁₃)₄]₂ (ABAB) X-ray geometry,Y,TD at X-ray geometry,CAM-B3LYP,44.190,2.7480,3.0215,9265.0,0.1377,0.013,yes,-1.89,-0.01,-2.54,-1.38,-0.000,0.7872,0.8152
+LuHt3_td2,Lu(Pc)(Pc–bis(4-methoxyphenyl)amino),Lu,heteroleptic,CAM-B3LYP,44.018,2.6909,2.9673,9929.7,0.0781,0.033,no,-1.89,3.01,0.39,3.50,-0.232,0.7864,0.8185
+LuPc8_k2_td3,"Lu-8 (10-methylphenothiazin-3-yl), second conformer",Lu,test,CAM-B3LYP,35.482,2.7006,2.9867,7738.0,0.0751,0.014,yes,-4.43,-2.45,-3.76,-2.51,0.001,0.7841,0.8099
+LuPc3i_td2,ideal rings of LuPc₂ at the d_N4/θ of Lu-3,Lu,mechanism,CAM-B3LYP,37.619,2.6844,3.0075,8535.0,0.1275,0.000,yes,-0.32,-0.33,-3.47,-3.47,0.000,0.7851,0.8110
+LuPc3r45_td2,"Lu-3 skeleton, donors removed, rotated to 45.0°",Lu,mechanism,CAM-B3LYP,44.975,2.6844,2.9771,10045.0,0.1375,0.000,yes,0.31,0.31,0.90,0.89,-0.009,0.7855,0.8146
+LuPc3s_td2,"Lu in the Lu-3 skeleton, donors removed",Lu,mechanism,CAM-B3LYP,37.622,2.6844,2.9771,8945.0,0.1171,0.000,yes,0.44,0.44,1.15,1.15,-0.016,0.7851,0.8119
+LuPc4i_td2,ideal rings of LuPc₂ at the d_N4/θ of Lu-4,Lu,mechanism,CAM-B3LYP,44.971,2.7067,3.0298,9298.0,0.1474,0.000,yes,-0.61,-0.62,-5.15,-5.15,-0.000,0.7854,0.8126
+LuPc4r37_td2,"Lu-4 skeleton, donors removed, rotated to 37.6°",Lu,mechanism,CAM-B3LYP,37.619,2.7067,2.9739,9291.0,0.1033,0.000,yes,3.90,3.90,6.71,6.72,-0.016,0.7852,0.8121
+LuPc4s_td2,"Lu in the Lu-4 skeleton, donors removed",Lu,mechanism,CAM-B3LYP,44.972,2.7067,2.9739,10269.0,0.1194,0.000,yes,2.12,2.13,4.75,4.75,0.001,0.7853,0.8143
+EuLuPc3s_k_td2,"Eu in the Lu-3 skeleton, donors removed",Eu,mechanism,CAM-B3LYP,37.622,2.6844,2.9771,8951.0,0.1172,0.000,yes,0.50,0.51,1.22,1.22,-0.014,0.7851,0.8118
+EuPc3s_k_td2,"Eu in the Eu-3 skeleton, donors removed",Eu,mechanism,CAM-B3LYP,36.565,2.8839,3.1087,7340.0,0.1044,0.000,yes,1.43,1.44,-0.03,-0.03,-0.030,0.7862,0.8098
+LuEuPc3s_k_td2,"Lu in the Eu-3 skeleton, donors removed",Lu,mechanism,CAM-B3LYP,36.565,2.8839,3.1087,7335.0,0.1043,0.000,yes,1.36,1.37,-0.10,-0.10,-0.031,0.7862,0.8098
+LuHtNMe2_opt_td,Lu(Pc)(Pc–dimethylamino),Lu,heteroleptic,CAM-B3LYP,43.542,2.6631,2.9694,10557.4,0.1274,0.001,no,4.85,5.00,4.98,5.07,-0.365,0.7888,0.8218
+LaPc4_td3,La-4 (phenothiazin-10-yl),La,test,CAM-B3LYP,44.982,3.1467,3.2558,6663.0,0.0546,0.026,no,-4.66,-0.95,-1.82,0.55,0.001,0.7864,0.8069
+LaPc5_td3,La-5 (phenoxazin-10-yl),La,test,CAM-B3LYP,43.950,3.1327,3.2572,6920.0,0.0546,0.015,yes,-0.58,1.62,0.78,2.17,0.286,0.7886,0.8093
+YPc3_td3,Y-3 (bis(4-methoxyphenyl)amino),Y,test,CAM-B3LYP,37.193,2.7674,3.0310,7662.0,0.0681,0.040,yes,-6.41,-0.68,-6.73,-3.21,-0.146,0.7849,0.8095
+YPc4_td3,Y-4 (phenothiazin-10-yl),Y,test,CAM-B3LYP,44.956,2.7921,3.0277,9036.0,0.0640,0.028,yes,-3.68,0.38,-1.97,0.59,0.001,0.7852,0.8111
+YPc5_td3,Y-5 (phenoxazin-10-yl),Y,test,CAM-B3LYP,44.117,2.7792,3.0276,9137.0,0.0672,0.024,yes,-2.45,1.04,-1.65,0.54,0.154,0.7858,0.8121
+YPc7_td3,Y-7 (10-methylphenoxazin-3-yl),Y,test,CAM-B3LYP,44.583,2.7558,3.0096,9132.0,0.1098,0.027,yes,-4.87,-1.01,-3.50,-1.07,-0.005,0.7850,0.8114
+YPc8_td3,Y-8 (10-methylphenothiazin-3-yl),Y,test,CAM-B3LYP,28.288,2.8061,3.0764,4113.0,0.0459,0.009,no,-3.26,-2.00,-5.51,-4.73,0.131,0.7875,0.8099
+LuPc2_SBu_kurt_td,Lu[Pc(SBu)₈]₂,Lu,test,CAM-B3LYP,37.490,2.6844,2.9763,8454.0,0.0971,0.018,yes,-4.76,-2.22,-3.97,-2.38,-0.014,0.7857,0.8228
+LuPc2_SEt_opt_td,Lu[Pc(SEt)₈]₂,Lu,test,CAM-B3LYP,33.072,2.7100,2.9876,6983.0,0.0768,0.007,yes,-1.97,-0.98,-0.58,0.05,-0.005,0.7857,0.8191
+LuPc2_SEt_r37_td2,"Lu[Pc(SEt)₈]₂, rigidly rotated to 37.5°",Lu,mechanism,CAM-B3LYP,37.519,2.7100,2.9875,8404.0,0.0968,0.017,yes,-4.04,-1.62,-2.92,-1.40,0.015,0.7856,0.8209
+LuPc2_SHx_kurt2_td,Lu[Pc(SHx)₈]₂,Lu,test,CAM-B3LYP,36.830,2.6836,2.9831,8154.0,0.0920,0.018,yes,-5.14,-2.61,-5.22,-3.64,-0.001,0.7861,0.8235
+EuPc2bare_lc_td2,"EuPc₂ (unsubstituted, large-core ECP)",Eu,test,CAM-B3LYP,44.982,2.8481,3.0971,8601.0,0.1357,0.000,yes,0.28,0.28,-2.63,-2.64,0.000,0.7864,0.8122
+EuLuPc3s_k_b3_td2,"Eu in the Lu-3 skeleton, donors removed",Eu,mechanism,B3LYP,37.622,2.6844,2.9771,9065.0,0.1137,0.000,no,1.78,1.79,2.51,2.51,-0.008,0.7624,0.7734
+EuLuPc3s_k_pb_td2,"Eu in the Lu-3 skeleton, donors removed",Eu,mechanism,PBE0,37.622,2.6844,2.9771,9130.0,0.1152,0.000,no,2.51,2.52,3.24,3.25,-0.008,0.7683,0.7829
+EuLuPc3s_k_wb_td2,"Eu in the Lu-3 skeleton, donors removed",Eu,mechanism,ωB97X-D3,37.622,2.6844,2.9771,8732.0,0.1149,0.000,no,-1.96,-1.95,-1.26,-1.26,-0.023,0.7943,0.8277
+LuEuPc3s_k_pb_td2,"Lu in the Eu-3 skeleton, donors removed",Lu,mechanism,PBE0,36.565,2.8839,3.1087,7732.0,0.1071,0.000,no,6.85,6.85,5.31,5.31,-0.018,0.7688,0.7817
+SBu_r376_SMe_pb_td2,"LuPc₂ butylthio ring shape, methylthio chains, rotated to 37.5°",Lu,mechanism,PBE0,37.505,2.6844,2.9763,8363.0,0.1004,0.066,no,-5.83,4.08,-5.06,1.02,-0.001,0.7672,0.7817
+LaPc1_td,La-1 (tert-butyl),La,fitting set,CAM-B3LYP,42.328,3.0977,3.2347,7018.0,0.0954,0.002,yes,-0.81,-0.53,0.03,0.21,0.067,0.7870,0.8094
+LaPc2bare_td,LaPc₂ (unsubstituted),La,fitting set,CAM-B3LYP,44.966,3.0835,3.2414,7169.0,0.1179,0.000,yes,0.69,0.69,-0.70,-0.71,-0.000,0.7872,0.8102
+LaPc2_td,La-2 (methylthio),La,test,CAM-B3LYP,30.103,3.1386,3.2854,4084.0,0.0564,0.001,yes,4.86,5.00,3.88,3.96,-0.059,0.7925,0.8147
+LaPc4_td,La-4 (phenothiazin-10-yl),La,test,CAM-B3LYP,44.982,3.1467,3.2558,6662.0,0.0547,0.026,yes,-4.68,-0.96,-1.84,0.54,0.001,0.7864,0.8078
+LaPc7_td,La-7 (10-methylphenoxazin-3-yl),La,test,CAM-B3LYP,44.334,3.1035,3.2329,6755.0,0.0878,0.022,yes,-6.07,-3.00,-4.54,-2.59,-0.010,0.7863,0.8079
+LaPc8k_td2,La-8 (10-methylphenothiazin-3-yl) (eclipsed minimum),La,test,CAM-B3LYP,0.183,3.1929,3.3832,5673.0,0.0862,0.016,no,,,,,0.013,0.7898,0.8171
+LuPc1_td,Lu-1 (tert-butyl),Lu,fitting set,CAM-B3LYP,43.979,2.6680,2.9568,10216.0,0.1212,0.003,yes,-0.40,0.03,1.69,1.97,0.034,0.7851,0.8143
+LuPc1_td_v2,Lu-1 (tert-butyl),Lu,test,CAM-B3LYP,43.979,2.6680,2.9568,10217.0,0.1212,0.003,no,-0.39,0.04,1.70,1.98,0.036,0.7851,0.8142
+LuPc2bare_cpcm,"LuPc₂, CPCM",Lu,solvent,CAM-B3LYP,44.968,2.6485,2.9716,9429.0,0.1833,0.000,no,-6.51,-6.50,-7.58,-7.58,-0.002,0.7845,0.8117
+LuPc2bare_gas,LuPc₂ (unsubstituted),Lu,fitting set,CAM-B3LYP,44.968,2.6485,2.9716,10100.0,0.1513,0.000,yes,0.15,0.15,-1.00,-1.00,-0.000,0.7853,0.8145
+LuPc2_td,Lu-2 (methylthio),Lu,test,CAM-B3LYP,41.874,2.6720,2.9525,9734.0,0.1215,0.028,yes,-3.89,0.16,-1.03,1.55,0.003,0.7854,0.8211
+LuPc7_td,Lu-7 (10-methylphenoxazin-3-yl),Lu,test,CAM-B3LYP,44.676,2.6727,2.9572,9797.0,0.1154,0.026,yes,-4.63,-0.91,-2.36,0.00,-0.006,0.7845,0.8127
+LuPc8_td,Lu-8 (10-methylphenothiazin-3-yl),Lu,test,CAM-B3LYP,29.947,2.7215,3.0158,5156.0,0.0545,0.010,no,-5.20,-3.82,-6.18,-5.32,0.068,0.7861,0.8102
+YHt_Me8_td,Y(Pc)(Pc–octamethyl),Y,heteroleptic,CAM-B3LYP,44.995,2.7373,3.0163,9599.0,0.1372,-0.001,no,0.83,0.68,0.06,-0.03,-0.143,0.7861,0.8133
+YHt_OMe8_td,Y(Pc)(Pc–octamethoxy),Y,heteroleptic,CAM-B3LYP,44.592,2.7461,3.0146,9780.0,0.1292,-0.001,no,2.54,2.39,2.63,2.53,-0.187,0.7865,0.8160
+YPc1_td,Y-1 (tert-butyl),Y,fitting set,CAM-B3LYP,43.795,2.7463,3.0083,9540.0,0.1167,0.002,yes,-0.52,-0.23,0.39,0.58,0.042,0.7856,0.8131
+YPc2bare_td,YPc₂ (unsubstituted),Y,fitting set,CAM-B3LYP,44.972,2.7300,3.0232,9456.0,0.1453,0.000,yes,0.22,0.21,-1.94,-1.94,0.000,0.7857,0.8133
+YPc2_Me8_td,Y[Pc(Me)₈]₂,Y,fitting set,CAM-B3LYP,44.980,2.7561,3.0024,9739.0,0.1241,0.002,yes,0.48,0.78,2.90,3.09,0.000,0.7853,0.8129
+YPc2_td,Y-2 (methylthio),Y,test,CAM-B3LYP,40.558,2.7548,3.0069,8896.0,0.1146,0.024,yes,-3.77,-0.31,-2.07,0.12,0.006,0.7857,0.8169
+YPc7_td2,Y-7 (10-methylphenoxazin-3-yl),Y,test,CAM-B3LYP,44.583,2.7558,3.0096,9132.0,0.1097,,no,-4.87,,-3.50,,-0.006,0.7850,0.8114
+LaPc2_b3lyp,LaPc₂-octakis(methylthio),La,functional series,B3LYP,30.103,3.1386,3.2854,4813.7,0.0643,0.008,no,23.58,25.03,22.44,23.32,-0.023,0.7616,0.7686
+LaPc2bare_b3lyp,LaPc₂ (unsubstituted),La,functional series,B3LYP,44.966,3.0835,3.2414,7766.6,0.1271,0.000,no,9.09,9.08,7.57,7.57,-0.000,0.7632,0.7727
+LaPc2bare_pbe0,LaPc₂ (unsubstituted),La,functional series,PBE0,44.966,3.0835,3.2414,7680.2,0.1257,0.000,no,7.87,7.87,6.38,6.37,-0.000,0.7695,0.7821
+LaPc2bare_wb97xd,LaPc₂ (unsubstituted),La,functional series,ωB97X-D3,44.966,3.0835,3.2414,6748.4,0.1102,0.000,no,-5.21,-5.22,-6.53,-6.53,-0.007,0.7970,0.8256
+LaPc2_pbe0,LaPc₂-octakis(methylthio),La,functional series,PBE0,30.103,3.1386,3.2854,4720.7,0.0637,0.005,no,21.20,22.08,20.07,20.61,-0.025,0.7676,0.7770
+LaPc2_wb97xd,LaPc₂-octakis(methylthio),La,functional series,ωB97X-D3,30.103,3.1386,3.2854,4740.0,0.0433,0.000,no,21.69,21.69,20.56,20.55,-0.555,0.9049,0.9279
+LuPc2bare_b3lyp,LuPc₂ (unsubstituted),Lu,functional series,B3LYP,44.968,2.6485,2.9716,10135.3,0.1506,0.000,no,0.50,0.50,-0.65,-0.65,-0.001,0.7628,0.7748
+LuPc2bare_pbe0,LuPc₂ (unsubstituted),Lu,functional series,PBE0,44.968,2.6485,2.9716,10220.3,0.1515,0.000,no,1.34,1.34,0.18,0.18,0.001,0.7687,0.7849
+LuPc2bare_wb97xd,LuPc₂ (unsubstituted),Lu,functional series,ωB97X-D3,44.968,2.6485,2.9716,9940.4,0.1485,0.000,no,-1.43,-1.43,-2.56,-2.56,0.002,0.7941,0.8302
+LuRot25_b3lyp,"LuPc₂, rigid rotation to 25°",Lu,functional series,B3LYP,25.052,2.6485,2.9716,3713.0,0.0444,0.000,no,23.34,23.36,24.98,24.97,0.001,0.7609,0.7686
+LuRot25_pbe0,"LuPc₂, rigid rotation to 25°",Lu,functional series,PBE0,25.052,2.6485,2.9716,3594.9,0.0436,0.000,no,19.42,19.43,21.01,21.00,-0.001,0.7662,0.7765
+LuRot25_wb97xd,"LuPc₂, rigid rotation to 25°",Lu,functional series,ωB97X-D3,25.052,2.6485,2.9716,2592.3,0.0338,0.000,no,-13.89,-13.88,-12.74,-12.75,-0.000,0.7928,0.8171
+LuRot30_b3lyp,"LuPc₂, rigid rotation to 30°",Lu,functional series,B3LYP,30.052,2.6485,2.9716,6213.8,0.0773,0.000,no,6.90,6.89,6.49,6.49,0.000,0.7617,0.7707
+LuRot30_pbe0,"LuPc₂, rigid rotation to 30°",Lu,functional series,PBE0,30.052,2.6485,2.9716,6188.4,0.0780,0.000,no,6.47,6.46,6.05,6.06,-0.000,0.7673,0.7793
+LuRot30_wb97xd,"LuPc₂, rigid rotation to 30°",Lu,functional series,ωB97X-D3,30.052,2.6485,2.9716,5515.0,0.0740,0.000,no,-5.12,-5.13,-5.49,-5.48,-0.000,0.7935,0.8214
+LuRot35_b3lyp,"LuPc₂, rigid rotation to 35°",Lu,functional series,B3LYP,35.052,2.6485,2.9716,8260.5,0.1100,0.000,no,2.07,2.07,1.15,1.16,-0.000,0.7623,0.7727
+LuRot35_pbe0,"LuPc₂, rigid rotation to 35°",Lu,functional series,PBE0,35.052,2.6485,2.9716,8301.7,0.1115,0.000,no,2.57,2.58,1.66,1.66,0.001,0.7681,0.7819
+LuRot35_wb97xd,"LuPc₂, rigid rotation to 35°",Lu,functional series,ωB97X-D3,35.052,2.6485,2.9716,7856.1,0.1101,0.000,no,-2.93,-2.93,-3.80,-3.80,-0.002,0.7939,0.8257
+LuRot40_b3lyp,"LuPc₂, rigid rotation to 40°",Lu,functional series,B3LYP,40.051,2.6485,2.9716,9642.4,0.1384,0.000,no,0.68,0.68,-0.42,-0.42,-0.000,0.7627,0.7742
+LuRot40_pbe0,"LuPc₂, rigid rotation to 40°",Lu,functional series,PBE0,40.051,2.6485,2.9716,9718.3,0.1397,0.000,no,1.48,1.48,0.37,0.36,0.000,0.7686,0.7840
+LuRot40_wb97xd,"LuPc₂, rigid rotation to 40°",Lu,functional series,ωB97X-D3,40.051,2.6485,2.9716,9399.2,0.1378,0.000,no,-1.86,-1.86,-2.93,-2.93,-0.001,0.7942,0.8290
+YPc2bare_b3lyp,YPc₂ (unsubstituted),Y,functional series,B3LYP,44.972,2.7300,3.0232,9608.4,0.1467,0.000,no,1.84,1.84,-0.36,-0.36,0.000,0.7629,0.7743
+YPc2bare_pbe0,YPc₂ (unsubstituted),Y,functional series,PBE0,44.972,2.7300,3.0232,9657.1,0.1471,0.000,no,2.35,2.35,0.14,0.15,-0.001,0.7689,0.7841
+YPc2bare_wb97xd,YPc₂ (unsubstituted),Y,functional series,ωB97X-D3,44.972,2.7300,3.0232,9212.0,0.1405,0.000,no,-2.36,-2.36,-4.47,-4.47,-0.002,0.7948,0.8295
+LuPc2bare_rot0,"LuPc₂, rigid rotation to 0°",Lu,rotation scan,CAM-B3LYP,0.001,2.6485,2.9716,10563.0,0.1588,0.000,no,,,,,0.000,0.7882,0.8225
+LuPc2bare_rot10,"LuPc₂, rigid rotation to 10°",Lu,rotation scan,CAM-B3LYP,9.997,2.6485,2.9716,7494.0,0.1003,0.000,no,,,,,-0.001,0.7883,0.8128
+LuPc2bare_rot15,"LuPc₂, rigid rotation to 15°",Lu,rotation scan,CAM-B3LYP,14.995,2.6485,2.9716,4534.0,0.0581,0.000,no,,,,,0.000,0.7881,0.8079
+LuPc2bare_rot20,"LuPc₂, rigid rotation to 20°",Lu,rotation scan,CAM-B3LYP,20.052,2.6485,2.9716,2194.0,0.0039,0.000,no,,,,,-0.858,0.8111,0.8199
+LuPc2bare_rot25,"LuPc₂, rigid rotation to 25°",Lu,fitting set,CAM-B3LYP,25.052,2.6485,2.9716,3000.0,0.0386,0.000,no,-0.34,-0.33,0.99,0.98,-0.009,0.7832,0.8024
+LuPc2bare_rot30,"LuPc₂, rigid rotation to 30°",Lu,fitting set,CAM-B3LYP,30.052,2.6485,2.9716,5829.0,0.0775,0.000,yes,0.28,0.28,-0.11,-0.10,-0.001,0.7842,0.8063
+LuPc2bare_rot35,"LuPc₂, rigid rotation to 35°",Lu,fitting set,CAM-B3LYP,35.052,2.6485,2.9716,8098.0,0.1132,0.000,yes,0.06,0.05,-0.84,-0.83,-0.000,0.7848,0.8101
+LuPc2bare_rot40,"LuPc₂, rigid rotation to 40°",Lu,fitting set,CAM-B3LYP,40.051,2.6485,2.9716,9584.0,0.1407,0.000,yes,0.07,0.07,-1.02,-1.02,-0.000,0.7852,0.8132
+LuPc2bare_rot45,"LuPc₂, rigid rotation to 45°",Lu,rotation scan,CAM-B3LYP,44.938,2.6485,2.9716,10100.0,0.1513,0.000,no,0.15,0.15,-1.00,-1.00,-0.000,0.7853,0.8145
+LuPc2bare_rot5,"LuPc₂, rigid rotation to 5°",Lu,rotation scan,CAM-B3LYP,4.995,2.6485,2.9716,9706.0,0.1396,0.000,no,,,,,0.000,0.7882,0.8190
+LaPc3_td2,La-3 (bis(4-methoxyphenyl)amino),La,test,CAM-B3LYP,35.453,3.1186,3.2662,5538.0,0.0513,0.031,yes,-1.76,2.84,-2.71,0.12,-0.320,0.7889,0.8081
+LaPc6_td2,"La-6 (3,7-dimethoxyphenothiazin-10-yl)",La,test,CAM-B3LYP,44.975,3.1398,3.2456,6699.0,0.0550,0.041,yes,-5.40,0.55,-1.97,1.82,-0.000,0.7862,0.8078
+LuHt1_td2,Lu(Pc)(Pc–tert-butyl),Lu,heteroleptic,CAM-B3LYP,44.234,2.6549,2.9659,10144.0,0.1370,0.001,no,-0.03,0.11,-0.02,0.07,0.121,0.7855,0.8145
+LuHt2_td2,Lu(Pc)(Pc–octakis(methylthio)),Lu,heteroleptic,CAM-B3LYP,43.648,2.6693,2.9558,10164.0,0.1295,0.014,no,-0.88,1.17,1.43,2.74,0.033,0.7851,0.8147
+LuHt4_td2,Lu(Pc)(Pc–phenothiazin-10-yl),Lu,heteroleptic,CAM-B3LYP,43.592,2.6668,2.9678,10219.0,0.1049,0.005,no,1.25,1.98,1.84,2.30,0.202,0.7864,0.8148
+LuHt5_td2,Lu(Pc)(Pc–phenoxazin-10-yl),Lu,heteroleptic,CAM-B3LYP,42.284,2.6665,2.9713,10031.0,0.1060,0.005,no,0.97,1.70,1.09,1.55,-0.192,0.7862,0.8143
+LuHt6_td2,"Lu(Pc)(Pc–3,7-dimethoxyphenothiazin-10-yl)",Lu,heteroleptic,CAM-B3LYP,43.768,2.6658,2.9682,10158.0,0.1049,0.008,no,0.60,1.77,1.06,1.81,-0.181,0.7862,0.8146
+LuHt7_td2,Lu(Pc)(Pc–N-methylphenoxazinyl),Lu,heteroleptic,CAM-B3LYP,42.808,2.6605,2.9625,9938.0,0.1322,0.010,no,-1.63,-0.19,-0.80,0.11,-0.103,0.7851,0.8135
+LuHt8_td2,Lu(Pc)(Pc–N-methylphenothiazinyl),Lu,heteroleptic,CAM-B3LYP,43.033,2.6625,2.9612,10001.0,0.1239,0.007,no,-1.37,-0.35,-0.23,0.41,0.035,0.7855,0.8238
+LuPc3_td2,Lu-3 (bis(4-methoxyphenyl)amino),Lu,test,CAM-B3LYP,37.622,2.6844,2.9771,8302.0,0.0712,0.043,yes,-6.78,-0.62,-6.12,-2.29,-0.124,0.7843,0.8108
+LuPc4_td2,Lu-4 (phenothiazin-10-yl),Lu,test,CAM-B3LYP,44.972,2.7067,2.9739,9706.0,0.0659,0.030,yes,-3.47,0.90,-0.99,1.79,0.002,0.7848,0.8122
+LuPc5_td2,Lu-5 (phenoxazin-10-yl),Lu,test,CAM-B3LYP,44.001,2.6956,2.9752,9759.0,0.0697,0.025,yes,-2.58,1.06,-1.01,1.30,0.136,0.7853,0.8132
+LuPc6_td2,"Lu-6 (3,7-dimethoxyphenothiazin-10-yl)",Lu,test,CAM-B3LYP,44.968,2.7027,2.9667,9725.0,0.0664,0.053,yes,-4.18,3.75,-1.07,3.95,0.001,0.7847,0.8125
+YPc6_td2,"Y-6 (3,7-dimethoxyphenothiazin-10-yl)",Y,test,CAM-B3LYP,44.994,2.7872,3.0198,9057.0,0.0645,0.052,yes,-4.43,3.32,-2.10,2.77,0.000,0.7851,0.8113
+lupc2_td_seri,LuPc₂ (def2-SVP test calculation),Lu,other,CAM-B3LYP,44.968,2.6485,2.9716,10192.7,0.1630,,no,1.07,,-0.09,,-0.001,0.7869,0.8178
+LuAB_x,Lu[Pc(SC₆H₁₃)₄]₂ (ABAB) (X-ray),Lu,X-ray,—,44.549,2.6559,2.9685,6988.0,,,no,,,,,,,
+NdAB_x,Nd[Pc(SC₆H₁₃)₄]₂ (ABAB) (X-ray),Nd,X-ray,—,44.422,2.9560,3.1539,5426.0,,,no,,,,,,,
+EuAB_x,Eu[Pc(SC₆H₁₃)₄]₂ (ABAB) (X-ray),Eu,X-ray,—,44.398,2.8412,3.0856,6061.0,,,no,,,,,,,
+DyAB_x,Dy[Pc(SC₆H₁₃)₄]₂ (ABAB) (X-ray),Dy,X-ray,—,43.803,2.7751,3.0486,6556.0,,,no,,,,,,,
+YAB_x,Y[Pc(SC₆H₁₃)₄]₂ (ABAB) (X-ray),Y,X-ray,—,44.205,2.7473,3.0217,6589.0,,,no,,,,,,,
+LuPh8_x,Lu(Ph₈Pc)₂ (X-ray),Lu,X-ray,—,44.676,2.6672,2.9562,7179.0,,0.003,no,,,,,,,
+LuSHx_x,Lu[Pc(SC₆H₁₃)₈]₂ (X-ray),Lu,X-ray,—,41.567,2.7037,2.9997,,,,no,,,,,,,
+SmHt_x,Sm(Pc)[Pc(OCH(C₂H₅)₂)₄] (X-ray),Sm,X-ray,—,42.254,2.8792,3.2347,5540.0,,,no,,,,,,,
+EuHt_x,Eu(Pc)[Pc(OCH(C₂H₅)₂)₄] (X-ray),Eu,X-ray,—,42.427,2.8397,3.1885,5675.0,,,no,,,,,,,
+ErHt_x,Er(Pc)[Pc(OCH(C₂H₅)₂)₄] (X-ray),Er,X-ray,—,43.787,2.7095,3.1166,6262.0,,,no,,,,,,,
+TbNBu_x,(Pc)Tb[Pc(NBu₂)₈] (X-ray),Tb,X-ray,—,43.526,2.7788,3.1296,6974.0,,,no,,,,,,,
+LuPh8core_td,"Lu(Ph₈Pc)₂ X-ray geometry, phenyl → H (core)",Lu,aryl,CAM-B3LYP,44.676,2.6672,2.9562,10434.0,0.1480,,no,1.45,,3.60,,,0.7860,0.8178
+LuMe8fix_td,"Lu(Ph₈Pc)₂ X-ray geometry, phenyl → CH₃",Lu,aryl,CAM-B3LYP,44.676,2.6672,2.9562,10302.0,0.1430,,no,0.16,,2.29,,,0.7860,0.8215
+LuPh4fix_td,"Lu(Ph₈Pc)₂ X-ray geometry, one phenyl per benzo ring (Lu(Ph₄Pc)₂)",Lu,aryl,CAM-B3LYP,44.676,2.6672,2.9562,10247.0,0.1380,,no,-0.37,,1.74,,,0.7860,0.8165
+LuPh8t35_r,"Lu(Ph₈Pc)₂ X-ray geometry, phenyl torsion 35°",Lu,aryl,CAM-B3LYP,44.676,2.6672,2.9562,9898.0,0.1330,,no,-3.77,,-1.72,,,0.7860,0.8140
+LuPh8_k_td2,"Lu(Ph₈Pc)₂ X-ray geometry, X-ray phenyl torsions (53°)",Lu,aryl,CAM-B3LYP,44.676,2.6672,2.9562,10048.5,0.1240,,no,-2.30,,-0.23,,,0.7860,0.8150
+LuPh8t70_r,"Lu(Ph₈Pc)₂ X-ray geometry, phenyl torsion 70°",Lu,aryl,CAM-B3LYP,44.676,2.6672,2.9562,10164.0,0.1200,,no,-1.18,,0.92,,,0.7860,0.8159
+LuPh8dik_r,"Lu(Ph₈Pc)₂ X-ray geometry, phenyl torsion 90°",Lu,aryl,CAM-B3LYP,44.676,2.6672,2.9562,10227.0,0.1160,,no,-0.57,,1.54,,,0.7860,0.8164
+LaPc2_SHx_kurt3_td,La[Pc(SHx)₈]₂ (31.1° conformer),La,test,CAM-B3LYP,31.058,3.1385,3.2955,4216.8,0.0543,,no,1.29,,-1.10,,-0.053,0.7893,0.8100
+LuAB_SMe_td2,"Lu ABAB, methylthio chains (optimised)",Lu,test,CAM-B3LYP,43.495,2.6671,2.9614,9994.8,0.1300,,no,-1.73,,-0.32,,0.005,0.7854,0.8183
+LuAB_SHx_td2,"Lu[Pc(SC₆H₁₃)₄]₂ (ABAB), optimised",Lu,test,CAM-B3LYP,44.084,2.6674,2.9649,9885.3,0.1216,,no,-2.65,,-1.69,,0.003,0.7856,0.8230
+YAB_SHx_td2,"Y[Pc(SC₆H₁₃)₄]₂ (ABAB), optimised",Y,test,CAM-B3LYP,44.150,2.7496,3.0176,9226.4,0.1170,,no,-2.77,,-2.82,,0.004,0.7858,0.8168
+YPc2_OMe8_h2_td2,"Y[Pc(OMe)₈]₂ (re-optimised, see S11)",Y,test,CAM-B3LYP,42.523,2.7714,3.0048,9648.2,0.1115,,no,1.14,,4.43,,-0.041,0.7866,0.8314
+LuPc3_cb_td2,"Lu-3 (bis(4-methoxyphenyl)amino), CPCM",Lu,solvent,CAM-B3LYP,37.624,2.6844,2.9771,7628.3,0.1015,,no,-14.35,,-13.74,,-0.102,0.7829,0.8094
+LuPc4_cb_td2,"Lu-4 (phenothiazin-10-yl), CPCM",Lu,solvent,CAM-B3LYP,44.972,2.7067,2.9739,9207.4,0.1054,,no,-8.43,,-6.08,,0.001,0.7838,0.8099
+LuPc8_cb_td2,"Lu-8 (10-methylphenothiazin-3-yl), CPCM",Lu,solvent,CAM-B3LYP,29.946,2.7214,3.0158,4621.4,0.0696,,no,-15.03,,-15.91,,0.066,0.7855,0.8090
+LuPc2bare_r30_cb_td2,"LuPc₂, rigid rotation to 30°, CPCM",Lu,solvent,CAM-B3LYP,30.052,2.6485,2.9716,5249.0,0.0916,,no,-9.70,,-10.05,,0.000,0.7833,0.8041
+SBu_r376_SMe_b3_td2,"LuPc₂ butylthio ring shape, methylthio chains, rotated to 37.5°",Lu,mechanism,B3LYP,37.505,2.6844,2.9764,8194.6,0.0972,,no,-7.72,,-6.97,,-0.000,0.7617,0.7725
+SBu_r376_SMe_wb_td2,"LuPc₂ butylthio ring shape, methylthio chains, rotated to 37.5°",Lu,mechanism,ωB97X-D3,37.505,2.6844,2.9764,8347.7,0.1004,,no,-5.99,,-5.23,,-0.002,0.8039,0.9312

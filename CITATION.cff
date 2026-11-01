@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Structure–spectrum relation for the intervalence band of lanthanide bis(phthalocyaninato) double-deckers: data, code and LnPc2 Explorer"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/gkurtay/LnPc2-IV-relation"
+doi: "10.5281/zenodo.23839079"
+url: "https://gkurtay.github.io/LnPc2-IV-relation/"
+authors:
+  - family-names: "Kurtay"
+    given-names: "Gülbin"
+    affiliation: "Department of Chemistry, Faculty of Science, Hacettepe University, Ankara, Türkiye"
+    orcid: "https://orcid.org/0000-0003-0920-8409"
+  - family-names: "İnce"
+    given-names: "Mine"
+    affiliation: "Department of Engineering Fundamental Sciences, Tarsus University, Mersin, Türkiye"
+    orcid: "https://orcid.org/0000-0002-9164-0446"
+keywords:
+  - lanthanide double-decker
+  - bis(phthalocyaninato)
+  - intervalence band
+  - TD-DFT
+  - structure–property relation

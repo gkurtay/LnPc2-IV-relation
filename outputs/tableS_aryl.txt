@@ -1,0 +1,12 @@
+IV shift (%)       = -1.9978 -4.6911*cos2   r -0.9998
+a1u splitting (%)  = -0.8404 -5.8565*cos2   r -0.9994
+IV shift (eV)      = -0.0259 -0.0606*cos2   r -0.9998
+gap change (eV)    = -0.0103 -0.1199*cos2   r -0.9993
+K change (eV)      = -0.0156 +0.0592*cos2   r 0.9984
+aryl share HOMO    = +0.0167 +0.0529*cos2   r 0.9989
+
+torsion-independent part (cos2 = 0): -0.0259 eV = gap -0.0103 (40%) + K -0.0156 (60%)
+methyl (same positions):            -0.0164 eV = gap -0.0150 (92%) + K -0.0014
+aryl share of beta HOMO/LUMO at 90 deg 0.016/0.014, methyl 0.019/0.017 (partition background)
+
+per aryl: A0 -0.1249 %, A2 -0.2932 %;  Lu(Ph4Pc)2 estimate -2.07 %, computed -1.79 %

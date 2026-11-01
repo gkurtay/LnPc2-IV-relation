@@ -1,0 +1,8 @@
+id,structure,n_aryl,torsion_mean_deg,cos2_mean,IV_cm-1,f_osc,shift_vs_core_pct,alpha_a1u_splitting_eV,beta_HOMO_LUMO_gap_eV,K_eV,aryl_share_beta_HOMO,aryl_share_beta_LUMO
+core,"Lu(Ph8Pc)2 X-ray geometry, all phenyl -> H",0,,,10434.0,0.148,0.00,1.2003,3.0260,-1.7323,0.000,0.000
+me8,"phenyl -> methyl, same geometry",16,,,10302.0,0.143,-1.27,1.1877,3.0110,-1.7337,0.019,0.017
+ph4,"one phenyl per benzo ring removed (C4), same geometry",8,47.4,0.4586,10247.0,0.138,-1.79,1.1808,3.0005,-1.7300,,
+t35,phenyl rings rotated to 35.2 deg,16,35.2,0.6677,9898.0,0.133,-5.14,1.1434,2.9349,-1.7077,0.052,0.047
+xray,X-ray torsions,16,52.9,0.3672,10048.5,0.124,-3.69,1.1645,2.9735,-1.7276,0.036,0.031
+t70,phenyl rings rotated to 69.9 deg,16,69.9,0.1181,10164.0,0.120,-2.59,1.1809,3.0005,-1.7403,0.024,0.020
+t90,phenyl rings rotated to 89.8 deg,16,89.8,0.0000,10227.0,0.116,-1.98,1.1910,3.0158,-1.7478,0.016,0.014

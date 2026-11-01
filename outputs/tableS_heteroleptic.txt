@@ -1,0 +1,27 @@
+id               donor class                       a   Dsub hole_D Deff/eV | dev Ca: raw  asym  both
+LuHt1_td2        alkyl                        +0.121  0.001  0.558   0.152 |    -0.0  -0.8  -0.6
+YHt_Me8_td       alkyl                        -0.143 -0.001  0.565   0.170 |    +0.8  -0.2  -0.3
+YHt_OMe8_td      alkoxy                       -0.187 -0.001  0.585   0.227 |    +2.5  +0.7  +0.6
+LuHt2_td2        thioether                    +0.033  0.014  0.473   0.042 |    -0.9  -0.9  +1.1
+LuHt3_td2        amino                        -0.232  0.033  0.606   0.286 |    -1.9  -4.6  +0.2
+LuHtNMe2_opt_td  amino                        -0.365  0.001  0.668   0.478 |    +4.8  -2.4  -2.2
+LuHt4_td2        N-linked cyclic diarylamine  +0.202  0.005  0.399   0.256 |    +1.2  -0.8  -0.1
+YHt4_opt_td      N-linked cyclic diarylamine  +0.226  0.005  0.393   0.268 |    +1.7  -0.9  -0.2
+LuHt5_td2        N-linked cyclic diarylamine  -0.192  0.005  0.409   0.239 |    +1.0  -0.9  -0.2
+LuHt6_td2        N-linked cyclic diarylamine  -0.181  0.008  0.408   0.228 |    +0.6  -1.1  +0.1
+LuHt7_td2        C-linked heteroaryl          -0.103  0.010  0.549   0.127 |    -1.6  -2.1  -0.7
+YHt7_opt_td      C-linked heteroaryl          -0.120  0.009  0.547   0.138 |    -1.7  -2.4  -1.1
+LaHt7_opt_td     C-linked heteroaryl          -0.212  0.005  0.596   0.182 |    -1.2  -3.5  -2.8
+LuHt8_td2        C-linked heteroaryl          +0.035  0.007  0.513   0.043 |    -1.4  -1.4  -0.4
+YHt8_td2         C-linked heteroaryl          +0.041  0.006  0.518   0.047 |    -1.3  -1.4  -0.6
+
+share of the ground-state hole on the substituted ring, by donor class:
+  N-linked cyclic diarylamine  n 4  0.39-0.41
+  thioether                    n 1  0.47-0.47
+  C-linked heteroaryl          n 5  0.51-0.60
+  alkyl                        n 2  0.56-0.56
+  alkoxy                       n 1  0.58-0.58
+  amino                        n 2  0.61-0.67
+Ca form, raw                  -1.9 to +4.8 %  (mean +0.2, sd 1.8)
+Ca form, asymmetry corrected  -4.6 to +0.7 %  (mean -1.5, sd 1.3)
+Ca form, both corrections     -2.8 to +1.1 %  (mean -0.5, sd 1.0)

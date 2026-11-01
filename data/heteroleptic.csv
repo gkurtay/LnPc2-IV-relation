@@ -1,0 +1,16 @@
+id,label,metal,donor,donor_class,fragment,theta_deg,d_N4_A,d_Ca_A,IV_cm-1,ring_spin_asym_a,D_sub,hole_on_donor_ring,Delta_eff_eV,dev_Ca_pct,dev_Ca_asym_corrected_pct,dev_Ca_both_corrected_pct,dev_N4_pct,dev_N4_both_corrected_pct
+LuHt1_td2,Lu(Pc)(Pc–tert-butyl),Lu,tert-butyl,alkyl,D01_tBu,44.234,2.6549,2.9659,10144.0,0.121,0.001,0.5584,0.1522,-0.03,-0.77,-0.62,-0.02,-0.66
+YHt_Me8_td,Y(Pc)(Pc–octamethyl),Y,octamethyl,alkyl,,44.995,2.7373,3.0163,9599.0,-0.143,-0.001,0.5649,0.1702,0.83,-0.21,-0.35,0.06,-1.06
+YHt_OMe8_td,Y(Pc)(Pc–octamethoxy),Y,octamethoxy,alkoxy,,44.592,2.7461,3.0146,9780.0,-0.187,-0.001,0.5846,0.2267,2.54,0.73,0.59,2.63,0.73
+LuHt2_td2,Lu(Pc)(Pc–octakis(methylthio)),Lu,octakis(methylthio),thioether,D02_SMe,43.648,2.6693,2.9558,10164.0,0.033,0.014,0.4726,0.0416,-0.88,-0.93,1.11,1.43,2.68
+LuHt3_td2,Lu(Pc)(Pc–bis(4-methoxyphenyl)amino),Lu,bis(4-methoxyphenyl)amino,amino,D03_bMeOPhN,44.018,2.6909,2.9673,9929.7,-0.232,0.033,0.6059,0.2856,-1.89,-4.57,0.20,0.39,0.67
+LuHtNMe2_opt_td,Lu(Pc)(Pc–dimethylamino),Lu,dimethylamino,amino,D09_NMe2,43.542,2.6631,2.9694,10557.4,-0.365,0.001,0.6677,0.4778,4.85,-2.39,-2.25,4.98,-2.18
+LuHt4_td2,Lu(Pc)(Pc–phenothiazin-10-yl),Lu,phenothiazin-10-yl,N-linked cyclic diarylamine,D04_PTZ_N,43.592,2.6668,2.9678,10219.0,0.202,0.005,0.3988,0.2559,1.25,-0.84,-0.12,1.84,0.19
+YHt4_opt_td,Y(Pc)(Pc–phenothiazin-10-yl),Y,phenothiazin-10-yl,N-linked cyclic diarylamine,D04_PTZ_N,43.172,2.7499,3.0213,9552.8,0.226,0.005,0.3932,0.2677,1.70,-0.93,-0.21,1.19,-0.98
+LuHt5_td2,Lu(Pc)(Pc–phenoxazin-10-yl),Lu,phenoxazin-10-yl,N-linked cyclic diarylamine,D05_POZ_N,42.284,2.6665,2.9713,10031.0,-0.192,0.005,0.4087,0.2388,0.97,-0.91,-0.19,1.09,-0.34
+LuHt6_td2,"Lu(Pc)(Pc–3,7-dimethoxyphenothiazin-10-yl)",Lu,"3,7-dimethoxyphenothiazin-10-yl",N-linked cyclic diarylamine,D06_diMeOPTZ_N,43.768,2.6658,2.9682,10158.0,-0.181,0.008,0.4085,0.2280,0.60,-1.06,0.09,1.06,0.12
+LuHt7_td2,Lu(Pc)(Pc–N-methylphenoxazinyl),Lu,N-methylphenoxazin-3-yl,C-linked heteroaryl,D07_NMePOZ_C,42.808,2.6605,2.9625,9938.0,-0.103,0.010,0.5490,0.1269,-1.63,-2.15,-0.72,-0.80,-0.42
+YHt7_opt_td,Y(Pc)(Pc–N-methylphenoxazinyl),Y,N-methylphenoxazin-3-yl,C-linked heteroaryl,D07_NMePOZ_C,42.726,2.7428,3.0163,9260.2,-0.120,0.009,0.5466,0.1378,-1.67,-2.38,-1.10,-2.03,-1.93
+LaHt7_opt_td,La(Pc)(Pc–N-methylphenoxazinyl),La,N-methylphenoxazin-3-yl,C-linked heteroaryl,D07_NMePOZ_C,42.391,3.0913,3.2437,6912.9,-0.212,0.005,0.5958,0.1817,-1.23,-3.47,-2.77,-2.14,-3.93
+LuHt8_td2,Lu(Pc)(Pc–N-methylphenothiazinyl),Lu,N-methylphenothiazin-3-yl,C-linked heteroaryl,D08_NMePTZ_C,43.033,2.6625,2.9612,10001.0,0.035,0.007,0.5135,0.0434,-1.37,-1.43,-0.42,-0.23,0.35
+YHt8_td2,Y(Pc)(Pc–N-methylphenothiazinyl),Y,N-methylphenothiazin-3-yl,C-linked heteroaryl,D08_NMePTZ_C,42.550,2.7461,3.0132,9313.7,0.041,0.006,0.5182,0.0473,-1.33,-1.41,-0.55,-1.06,-0.60

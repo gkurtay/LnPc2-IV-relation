@@ -1,0 +1,638 @@
+[
+ {
+  "vw": 820,
+  "vh": 560,
+  "jobs": [
+   {
+    "id": "LuPc2bare_gas",
+    "ui": {
+     "rings": true
+    },
+    "view": "tilt",
+    "zoom": 1.15,
+    "meas": [
+     [
+      "dist",
+      [
+       1,
+       5
+      ]
+     ],
+     [
+      "dist",
+      [
+       1,
+       61
+      ]
+     ],
+     [
+      "ang",
+      [
+       5,
+       1,
+       10
+      ]
+     ]
+    ],
+    "out": "outputs/explorer/fig1_a.png",
+    "size": "c2_600"
+   },
+   {
+    "id": "LuPc2bare_gas",
+    "ui": {
+     "rings": true,
+     "geo": true,
+     "h": false
+    },
+    "view": "side",
+    "zoom": 1.35,
+    "ov": false,
+    "out": "outputs/explorer/fig1_b.png",
+    "size": "c2_600"
+   },
+   {
+    "id": "LuPc2bare_gas",
+    "ui": {
+     "rings": true
+    },
+    "view": "top",
+    "zoom": 0.85,
+    "ov": false,
+    "out": "outputs/explorer/fig1_c.png",
+    "size": "c2_600"
+   }
+  ]
+ },
+ {
+  "vw": 600,
+  "vh": 480,
+  "jobs": [
+   {
+    "id": "LuPh8t35_r",
+    "ui": {
+     "rings": true,
+     "h": true,
+     "half": "top"
+    },
+    "view": [
+     0.7071062031333468,
+     0.0009041517251937439,
+     0.0009041517251937365,
+     0.7071062031333467
+    ],
+    "focus": [
+     3,
+     9,
+     12,
+     35,
+     50,
+     121,
+     125,
+     129,
+     133,
+     137,
+     141,
+     145,
+     149,
+     153,
+     157,
+     161,
+     165,
+     169,
+     177,
+     181,
+     185,
+     189,
+     193,
+     196,
+     198,
+     200,
+     202,
+     204,
+     206,
+     208,
+     211,
+     214,
+     235,
+     236
+    ],
+    "fz": 0.9,
+    "meas": [
+     [
+      "dihedral",
+      [
+       145,
+       141,
+       193,
+       196
+      ]
+     ]
+    ],
+    "out": "outputs/explorer/aryl_t35.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPh8_k_td2",
+    "ui": {
+     "rings": true,
+     "h": true,
+     "half": "top"
+    },
+    "view": [
+     0.7071067487565998,
+     0.00021415618319311203,
+     0.00021415618319310466,
+     0.7071067487565998
+    ],
+    "focus": [
+     3,
+     9,
+     12,
+     35,
+     50,
+     121,
+     125,
+     129,
+     133,
+     137,
+     141,
+     145,
+     149,
+     153,
+     157,
+     161,
+     165,
+     169,
+     177,
+     181,
+     185,
+     189,
+     193,
+     196,
+     198,
+     200,
+     202,
+     204,
+     206,
+     208,
+     211,
+     214,
+     235,
+     236
+    ],
+    "fz": 0.9,
+    "meas": [
+     [
+      "dihedral",
+      [
+       145,
+       141,
+       193,
+       208
+      ]
+     ]
+    ],
+    "out": "outputs/explorer/aryl_xray.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPh8dik_r",
+    "ui": {
+     "rings": true,
+     "h": true,
+     "half": "top"
+    },
+    "view": [
+     0.7071064038472447,
+     0.000730505453392933,
+     0.0007305054533929256,
+     0.7071064038472447
+    ],
+    "focus": [
+     3,
+     9,
+     12,
+     35,
+     50,
+     121,
+     125,
+     129,
+     133,
+     137,
+     141,
+     145,
+     149,
+     153,
+     157,
+     161,
+     165,
+     169,
+     177,
+     181,
+     185,
+     189,
+     193,
+     196,
+     198,
+     200,
+     202,
+     204,
+     206,
+     208,
+     211,
+     214,
+     235,
+     236
+    ],
+    "fz": 0.9,
+    "meas": [
+     [
+      "dihedral",
+      [
+       145,
+       141,
+       193,
+       208
+      ]
+     ]
+    ],
+    "out": "outputs/explorer/aryl_t90.png",
+    "size": "c1_600"
+   }
+  ]
+ },
+ {
+  "vw": 1200,
+  "vh": 760,
+  "jobs": [
+   {
+    "id": "LuHt4_td2",
+    "ui": {
+     "spinsph": true,
+     "h": false
+    },
+    "view": [
+     -0.12148299671102585,
+     -0.4831662740643925,
+     0.06790459145705402,
+     0.8643964365821344
+    ],
+    "zoom": 1.35,
+    "ov": false,
+    "out": "outputs/explorer/het_ptz.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuHtNMe2_opt_td",
+    "ui": {
+     "spinsph": true,
+     "h": false
+    },
+    "view": [
+     0.9529865902126022,
+     -0.03782804971512909,
+     -0.26916055959987384,
+     0.133933530848665
+    ],
+    "zoom": 1.35,
+    "ov": false,
+    "out": "outputs/explorer/het_nme2.png",
+    "size": "c1_600"
+   }
+  ]
+ },
+ {
+  "vw": 820,
+  "vh": 620,
+  "jobs": [
+   {
+    "id": "LuPc2bare_gas",
+    "ui": {
+     "rings": true
+    },
+    "view": "tilt",
+    "zoom": 1.1,
+    "ov": false,
+    "out": "outputs/explorer/chart1_lu.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuHt4_td2",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": [
+     -0.14994113372833195,
+     -0.6070950660086009,
+     0.11800732660673531,
+     0.7713802616812323
+    ],
+    "zoom": 1.15,
+    "ov": false,
+    "out": "outputs/explorer/chart1_ptz.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPh8_k_td2",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.1,
+    "ov": false,
+    "out": "outputs/explorer/chart1_ph8.png",
+    "size": "c1_600"
+   }
+  ]
+ },
+ {
+  "vw": 760,
+  "vh": 560,
+  "jobs": [
+   {
+    "id": "LuPc2bare_gas",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.12,
+    "ln2": true,
+    "out": "outputs/explorer/gal_S6_LuPc2bare_gas.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "YPc2bare_td",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.12,
+    "ln2": true,
+    "out": "outputs/explorer/gal_S6_YPc2bare_td.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LaPc2bare_td",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.12,
+    "ln2": true,
+    "out": "outputs/explorer/gal_S6_LaPc2bare_td.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc1_td",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.12,
+    "ln2": true,
+    "out": "outputs/explorer/gal_S6_LuPc1_td.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc2_td",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.12,
+    "ln2": true,
+    "out": "outputs/explorer/gal_S6_LuPc2_td.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc3_td2",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.12,
+    "ln2": true,
+    "out": "outputs/explorer/gal_S6_LuPc3_td2.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc4_td2",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.12,
+    "ln2": true,
+    "out": "outputs/explorer/gal_S6_LuPc4_td2.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc8_td",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.12,
+    "ln2": true,
+    "out": "outputs/explorer/gal_S6_LuPc8_td.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LaPc2_td",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.12,
+    "ln2": true,
+    "out": "outputs/explorer/gal_S6_LaPc2_td.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc2bare_gas",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "top",
+    "zoom": 0.9,
+    "ov": false,
+    "out": "outputs/explorer/gal_S7_LuPc2bare_gas.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc2bare_rot35",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "top",
+    "zoom": 0.9,
+    "ov": false,
+    "out": "outputs/explorer/gal_S7_LuPc2bare_rot35.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc2bare_rot25",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "top",
+    "zoom": 0.9,
+    "ov": false,
+    "out": "outputs/explorer/gal_S7_LuPc2bare_rot25.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc8_td",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "top",
+    "zoom": 0.9,
+    "ov": false,
+    "out": "outputs/explorer/gal_S7_LuPc8_td.png",
+    "size": "c1_600"
+   }
+  ]
+ },
+ {
+  "vw": 760,
+  "vh": 560,
+  "jobs": [
+   {
+    "id": "LuPc2bare_rot0",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "top",
+    "zoom": 0.9,
+    "ov": false,
+    "out": "outputs/explorer/rot_top_0.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc2bare_rot20",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "top",
+    "zoom": 0.9,
+    "ov": false,
+    "out": "outputs/explorer/rot_top_20.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc2bare_gas",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "top",
+    "zoom": 0.9,
+    "ov": false,
+    "out": "outputs/explorer/rot_top_45.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc2bare_rot20",
+    "ui": {
+     "spinsph": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.1,
+    "ov": false,
+    "out": "outputs/explorer/rot_spin_20.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc2bare_rot25",
+    "ui": {
+     "spinsph": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.1,
+    "ov": false,
+    "out": "outputs/explorer/rot_spin_25.png",
+    "size": "c1_600"
+   }
+  ]
+ },
+ {
+  "vw": 760,
+  "vh": 560,
+  "jobs": [
+   {
+    "id": "LuPc3_td2",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.0,
+    "ov": false,
+    "out": "outputs/explorer/don_lu3.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPc3s_td2",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 0.62,
+    "ov": false,
+    "out": "outputs/explorer/don_lu3s.png",
+    "size": "c1_600"
+   }
+  ]
+ },
+ {
+  "vw": 760,
+  "vh": 560,
+  "jobs": [
+   {
+    "id": "LuAB_x",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.05,
+    "ov": false,
+    "out": "outputs/explorer/xr_abab.png",
+    "size": "c1_600"
+   },
+   {
+    "id": "LuPh8_x",
+    "ui": {
+     "rings": true,
+     "h": false
+    },
+    "view": "tilt",
+    "zoom": 1.05,
+    "ov": false,
+    "out": "outputs/explorer/xr_ph8.png",
+    "size": "c1_600"
+   }
+  ]
+ }
+]

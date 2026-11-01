@@ -1,0 +1,9 @@
+name: lnpc2-iv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - gemmi

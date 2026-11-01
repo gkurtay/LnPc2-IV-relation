@@ -1,0 +1,29 @@
+fragment,role,HOMO_eV,vertical_IP_eV,ring_HOMO_eV,ring_HOMO_weight,ring_HOMO_index_below_HOMO,ring_centroid_eV
+D00_benzene,reference,-7.278,9.240,-7.261,1.00,0,-9.945
+D01_tBu,model of computed heteroleptic,-6.929,8.629,-6.912,0.87,0,-8.316
+D02_SMe,model of computed heteroleptic,-6.029,7.776,-5.974,0.35,0,-9.034
+D03_bMeOPhN,model of computed heteroleptic,-5.043,6.232,-6.857,0.41,2,-7.062
+D04_PTZ_N,model of computed heteroleptic,-5.033,6.369,-7.626,0.89,4,-7.609
+D05_POZ_N,model of computed heteroleptic,-5.101,6.436,-7.669,0.91,4,-7.711
+D06_diMeOPTZ_N,model of computed heteroleptic,-4.681,5.925,-7.514,0.89,4,-7.477
+D07_NMePOZ_C,model of computed heteroleptic,-5.189,6.461,-6.602,0.27,1,-7.496
+D08_NMePTZ_C,model of computed heteroleptic,-5.411,6.677,-6.914,0.31,2,-7.277
+D09_NMe2,model of computed heteroleptic,-5.462,7.089,-5.401,0.44,0,-8.693
+A01_Cz,candidate donor,-5.852,7.149,-7.611,0.78,3,-7.745
+A02_tBuCz,candidate donor,-5.613,6.770,-7.489,0.76,3,-7.432
+A03_DMAC,candidate donor,-5.348,6.585,-7.521,0.89,4,-7.563
+A04_diMeOPOZ_N,candidate donor,-4.671,5.922,-7.550,0.91,4,-7.465
+A05_Ph2N,candidate donor,-5.440,6.690,-7.173,0.43,1,-7.665
+A06_tBuPh2N,candidate donor,-5.257,6.391,-7.244,0.40,3,-7.193
+A07_TPA_C,candidate donor,-5.393,6.525,-7.251,0.47,3,-7.187
+A08_MeOTPA_C,candidate donor,-5.034,6.120,-6.466,0.34,1,-7.037
+A09_CzPh_C,candidate donor,-5.815,6.998,-6.877,0.49,2,-7.447
+A10_NMe2Ph_C,candidate donor,-5.360,6.740,-6.968,0.62,1,-7.938
+A11_MeOPh_C,candidate donor,-6.054,7.511,-6.030,0.27,0,-8.098
+A12_Ph_C,candidate donor,-6.573,8.083,-6.564,0.50,0,-8.410
+A13_Th_C,candidate donor,-6.217,7.760,-6.217,0.38,0,-8.668
+A14_BiTh_C,candidate donor,-5.673,6.980,-7.187,0.28,1,-7.814
+A15_EDOT_C,candidate donor,-5.812,7.251,-5.811,0.31,0,-7.805
+A16_POZPh_C,candidate donor,-5.097,6.380,-6.857,0.51,2,-7.511
+A17_PTZPh_C,candidate donor,-5.028,6.317,-6.844,0.50,2,-7.508
+A18_SBu,candidate donor,-5.962,7.617,-5.916,0.34,0,-8.130

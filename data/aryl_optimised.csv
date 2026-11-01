@@ -1,0 +1,6 @@
+id,structure,geometry,n_aryl,torsion_mean_deg,cos2_mean,PcPh_bond_A,IV_cm-1,IV_core_cm-1,shift_vs_core_pct,rule_pct,shift_vs_relation_pct,beta_gap_eV,beta_gap_core_eV,calculation,core_calculation
+xray,Lu(Ph8Pc)2,X-ray,16,52.9,0.3672,1.495,10048.5,10433.6,-3.69,-3.72,,,,LuPh8_k_td2,LuPh8core_td
+ph4,Lu(Ph4Pc)2 (one phenyl per benzo ring removed),X-ray,8,47.4,0.4586,1.496,10247.0,10433.6,-1.79,-2.07,,,,LuPh4fix_td,LuPh8core_td
+ph8opt,Lu(Ph8Pc)2,optimised PBE0-D3BJ/def2-SVP,16,48.9,0.4331,1.484,9871.8,10314.2,-4.29,-4.03,-4.05,2.9400,3.0049,LuPh8o_td,LuPh8o_cekirdek_td
+ph4opt,Lu(Ph4Pc)2,optimised PBE0-D3BJ/def2-SVP,8,34.0,0.6877,1.479,10005.6,10393.6,-3.73,-2.61,-2.57,2.9604,3.0241,LuPh4o_td,LuPh4o_cekirdek_td
+ph4dik,Lu(Ph4Pc)2 phenyl rotated to 89.8 deg,X-ray,8,89.8,0.0000,1.496,10320.6,10433.6,-1.08,-1.00,,,,LuPh4dik_td,LuPh8core_td
