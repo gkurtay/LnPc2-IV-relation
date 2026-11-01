@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval'; style-src 'unsafe-inline'; img-src data: blob:; font-src data:; worker-src blob:; connect-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LnPc₂ Explorer</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%22-20%20-20%2040%2040%22%3E%3Cg%20fill%3D%22none%22%20stroke-width%3D%223%22%20stroke-linejoin%3D%22round%22%3E%3Cpolygon%20points%3D%220%2C-15%2015%2C0%200%2C15%20-15%2C0%22%20stroke%3D%22%23e3792f%22/%3E%3Crect%20x%3D%22-10.6%22%20y%3D%22-10.6%22%20width%3D%2221.2%22%20height%3D%2221.2%22%20stroke%3D%22%232f5fd0%22/%3E%3C/g%3E%3Ccircle%20r%3D%225%22%20fill%3D%22%231a9e77%22/%3E%3C/svg%3E">
 
 
 <style>
@@ -23,7 +24,9 @@ html,body{height:100%}
 body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45;margin:0}
 .wrap{padding-inline:16px;padding-block:14px 24px;display:flex;flex-direction:column;gap:12px;min-height:100%;box-sizing:border-box}
 header{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px}
-h1{font-family:var(--display);font-weight:600;font-size:1.6rem;margin:0;letter-spacing:.005em;text-wrap:balance}
+h1{font-family:var(--display);font-weight:600;font-size:1.6rem;margin:0;letter-spacing:.005em;text-wrap:balance;display:flex;align-items:center;gap:10px;align-self:center}
+h1 svg{width:38px;height:38px;flex:none}
+h1 sub{font-size:.62em;line-height:0;vertical-align:-.28em}
 .sub{color:var(--muted);font-size:.9rem;max-width:80ch}
 .grid{display:grid;grid-template-columns:280px minmax(0,1fr) 390px;gap:12px;flex:1;min-height:0}
 @media (max-width:1220px){.grid{grid-template-columns:250px minmax(0,1fr)}.right{grid-column:1 / -1}}
@@ -203,7 +206,7 @@ table.dt{border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:.7
 
 <div class="wrap">
 <header>
-  <h1>LnPc₂ Explorer</h1>
+  <h1><svg viewBox="-20 -20 40 40" aria-hidden="true" focusable="false"><g stroke-width="2" stroke-linejoin="round"><polygon points="0,-14 14,0 0,14 -14,0" stroke="#e3792f" fill="#e3792f" fill-opacity=".10"/><rect x="-10" y="-10" width="20" height="20" stroke="#2f5fd0" fill="#2f5fd0" fill-opacity=".10"/></g><g fill="#2f5fd0"><circle cx="-10" cy="-10" r="2.1"/><circle cx="10" cy="-10" r="2.1"/><circle cx="10" cy="10" r="2.1"/><circle cx="-10" cy="10" r="2.1"/></g><g fill="#e3792f"><circle cx="0" cy="-14" r="2.1"/><circle cx="14" cy="0" r="2.1"/><circle cx="0" cy="14" r="2.1"/><circle cx="-14" cy="0" r="2.1"/></g><circle r="4" fill="#1a9e77" stroke="#fff" stroke-width="1.2"/></svg><span>LnPc<sub>2</sub> Explorer</span></h1>
   <div class="sub">Every computed and X-ray structure behind the distance–angle relation for the intervalence band of lanthanide bis(phthalocyaninato) double-deckers. Rotate, measure, compare two structures, recompute the descriptors and test them against the relation.</div>
 </header>
 <div class="grid">
