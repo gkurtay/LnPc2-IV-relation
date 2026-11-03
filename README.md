@@ -4,7 +4,7 @@ Data and software accompanying
 
 > G. Kurtay, M. İnce, *Inter-ring distance and skew angle control the near-infrared intervalence band of lanthanide bis(phthalocyaninato) double-deckers* (in preparation; reference to be updated on publication).
 
-Source code and Explorer: https://github.com/gkurtay/LnPc2-IV-relation (Explorer online: https://gkurtay.github.io/LnPc2-IV-relation/). Archived record, including all calculation files: Zenodo, https://doi.org/10.5281/zenodo.23839079.
+Source code and Explorer: https://github.com/gkurtay/LnPc2-IV-relation (Explorer online: https://gkurtay.github.io/LnPc2-IV-relation/). Archived record, including all calculation files: Zenodo, https://doi.org/10.5281/zenodo.23839078 (all versions; resolves to the latest). This is version 1.0.1, the version that corresponds to the article; version 1.0.0 is https://doi.org/10.5281/zenodo.23839079.
 
 ## Contents
 
@@ -12,7 +12,7 @@ Source code and Explorer: https://github.com/gkurtay/LnPc2-IV-relation (Explorer
 |---|---|
 | `explorer/LnPc2_Explorer_offline.html` | Interactive explorer. Opens in any modern browser, needs no network connection. Every computed and X-ray structure in 3D, descriptors recomputed in the browser, spectra, the relation, the experimental test against eight unsubstituted LnPc₂ and the NTO analysis. Your own ORCA outputs, Gaussian logs or XYZ files can be opened in it as well (see below). |
 | `data/constants.json` | Constants of both forms of the relation (fitted to 11 donor-free structures), the donor correction, fit statistics and the experimental scale factors. |
-| `data/structures.csv` | All 181 entries (170 computed structures and 11 X-ray entries): metal, set, functional, θ, d_N4, d_Cα, IV energy, oscillator strength, donor share D_sub, whether the structure enters the donor regression, deviation from both forms without and with the donor correction (computed structures above the node), ring spin asymmetry, ground-state ⟨S²⟩ and ⟨S²⟩ of the IV state (`S2_IV_state`). For the X-ray rows, IV_cm-1 is the measured solution band and the deviations are left empty. |
+| `data/structures.csv` | All 210 entries (197 computed structures and 13 X-ray entries): metal, set, functional, θ, d_N4, d_Cα, IV energy, oscillator strength, donor share D_sub, whether the structure enters the donor regression, deviation from both forms without and with the donor correction (computed structures above the node), ring spin asymmetry, ground-state ⟨S²⟩ and ⟨S²⟩ of the IV state (`S2_IV_state`). For the X-ray rows, IV_cm-1 is the measured solution band and the deviations are left empty. |
 | `data/unsubstituted_LnPc2_test.csv` | Crystal descriptors of unsubstituted LnPc₂ (Pr–Yb) and the four IV components measured by Ostendorp and Homborg (CH₂Cl₂). |
 | `data/geometry.csv` | Geometric parameters of every optimised structure, crystal structure and heteroleptic (Table S11): θ, d_N4, d_Cα, Ln–N mean and range, height of each N₄ plane above the metal, cis N–Ln–N angle, ring doming; computed with the Explorer descriptor routine. |
 | `data/orbitals_a1u_LuPc2opt.txt` | Signed β HOMO and β LUMO values 0.75 Å above and below every C/N atom of the optimised LuPc₂ (Figure 1d), read from the ORCA cube files; `orbitals_a1u_LuPh8core.txt`, the same for the LuPc₂ skeleton of the Lu(Ph₈Pc)₂ crystal structure. |
@@ -20,10 +20,10 @@ Source code and Explorer: https://github.com/gkurtay/LnPc2-IV-relation (Explorer
 | `data/orbital_scan.csv` | Symmetry-labelled orbital scan of LuPc₂ (Figure S4): energy difference between the A and B1 combinations of the ring a₁u orbitals against the skew angle, for the anion and the neutral radical (α). |
 | `data/heteroleptic.csv` | The 15 computed heteroleptic sandwiches: substituent and its class, descriptors, IV energy, ring spin asymmetry a, D_sub, share of the ground-state hole on the substituted ring, Δ_eff = |a|·ν, deviation from both forms raw, after the asymmetry correction 1/√(1 − a²) and after both corrections. |
 | `data/aryl_series.csv` | Lu(Ph₈Pc)₂ at its X-ray geometry with the phenyl groups rotated (35–90°), halved, replaced by H (core) or by methyl: torsion, IV energy, shift from the core, α a₁u splitting, β HOMO–LUMO gap, electron–hole term K = ω − gap, and the phenyl share of the β HOMO and LUMO. |
-| `data/solvent.csv` | IV energies with CPCM (chlorobenzene) and in the gas phase for seven structures, and their ratio (Figure S3). |
+| `data/solvent.csv` | IV energies with CPCM and in the gas phase, and their ratio: seven structures in chlorobenzene (Figure S3), and LuPc₂ in CHCl₃ and CH₂Cl₂ and the X-ray geometry of the Lu member of the ABAB series in CHCl₃ (column `solvent`). |
 | `data/fragments.csv` | Substituent fragments (Ar–D on benzene, PBE0-D3BJ/def2-SVP): HOMO, vertical ionisation energy and the ring-HOMO: the highest occupied orbital with at least 25% of its weight on the benzene ring that stands for the benzo ring of Pc (energy, weight, its position below the HOMO), with the ring-weighted centroid of the eight highest occupied orbitals. D-fragments model the computed heteroleptics, A-fragments are candidate donors. |
-| `data/nto_partition.csv` | Share of the IV hole and particle densities on the metal, each macrocycle, the substituents and the substituent heteroatoms, and D_sub. The row of the X-ray entry LuPh8_x comes from the NTO calculation at the same geometry (`calculations/nto/LuPh8_k_td2_nto`). |
-| `data/LnPc2_IV_coordinates.xyz` | Cartesian coordinates (Å) of every computed structure as used in the TD-DFT calculations: the 170 of `data/structures.csv` and the 5 of `data/aryl_optimised.csv`; the comment line gives the structure code, label, functional, IV energy and descriptors. |
+| `data/nto_partition.csv` | Share of the IV hole and particle densities on the metal, each macrocycle, the substituents and the substituent heteroatoms, and D_sub. The row of the X-ray entry LuPh8_x comes from the NTO calculation at the same geometry (`calculations/nto/LuPh8_k_td2_nto`); the rows of TbaO_k_td2 and YaO_k_td come from the NTOs written by these TD-DFT calculations themselves, and the Explorer uses them for the X-ray entries TbaO_x and YaO_x. |
+| `data/LnPc2_IV_coordinates.xyz` | Cartesian coordinates (Å) of every computed structure as used in the TD-DFT calculations: the 197 of `data/structures.csv` and the 5 of `data/aryl_optimised.csv`; the comment line gives the structure code, label, functional, IV energy and descriptors. |
 | `code/descriptors.py` | The descriptor routine used throughout the article (d_N4, d_Cα, θ). Reads CIF, XYZ or ORCA output. |
 | `code/predict.py` | Predicts the IV band of a homoleptic double-decker from its geometry. |
 | `code/unsubstituted_LnPc2_test.py` | Reproduces the external test of the article. |
@@ -31,12 +31,13 @@ Source code and Explorer: https://github.com/gkurtay/LnPc2-IV-relation (Explorer
 | `code/heteroleptic.py` | The relation with the asymmetry and donor corrections for heteroleptic sandwiches; `--table` reproduces the heteroleptic analysis. |
 | `code/aryl.py` | Torsion dependence and gap/electron–hole decomposition of the aryl effect (`--series`); for a new structure, finds aryl rings on the benzo rings and estimates their shift additively. |
 | `code/figstyle.py` | Common figure style used by `make_outputs.py` (palette, panel background, marker shading, image cards). |
+| `code/article_figures.py` | Draws Figures 1–3, 6 and 7 and Figure S4 in the layout of the published article from the same data (writes `outputs/article/`). |
 | `code/make_outputs.py` | Regenerates Table 1, Figures 1–3, 6 and 7, Figures S1–S3 and S5–S8 of the Supporting Information and the analyses behind Tables S9c, S9f and S10b from the files in `data/` (writes `outputs/`). |
 | `code/ring_asymmetry.py` | Ring spin asymmetry a from an ORCA output (Mulliken) or a Gaussian log with pop=hirshfeld; reproduces `ring_spin_asym_a` in `data/structures.csv` and the crystal-structure values in `calculations/hirshfeld/`. |
 | `code/torsion_mode.py` | Inter-ring torsional mode from an ORCA Hessian: frequency, thermal amplitude and its effect on the angular factor (Section S3); run on `calculations/freq/*/*.hess`. |
 | `code/nto_partition.py` | Partitions NTO cube files onto metal, rings and substituents. The cube files are not deposited; they are regenerated with orca_plot from the NTO calculations in `calculations/nto/`, and the results are in `data/nto_partition.csv`. |
 | `outputs/` | The output of `make_outputs.py`, as deposited. |
-| `calculations/` | ORCA 6.1.1 input and output files of all calculations (TD-DFT, natural transition orbitals, CASSCF/NEVPT2, aryl series, harmonic frequencies, basis-set check, orbital scan) and Gaussian 16 files of the substituent fragments and Hirshfeld calculations, with `index.csv` linking each job to its structure; see `calculations/README.txt`. In the Zenodo record only; not mirrored on GitHub because of its size. |
+| `calculations/` | ORCA 6.1.1 input and output files of all calculations (TD-DFT, natural transition orbitals, CASSCF/NEVPT2, aryl series, harmonic frequencies, basis-set check, orbital scan, constrained and regioisomer optimisations) and Gaussian 16 files of the substituent fragments and Hirshfeld calculations, with `index.csv` linking each job to its structure; see `calculations/README.txt`. In the Zenodo record only; not mirrored on GitHub because of its size. |
 
 ## Quick start
 
@@ -55,7 +56,7 @@ python code/make_outputs.py          # tables and figures of the article
 
 ## Reproducing the article
 
-`python code/make_outputs.py` refits both forms to the 11 donor-free structures in `data/structures.csv` (with the bootstrap of the article, 2000 resamples, seed 7) and redraws Figures 1–3, 6, 7 and S1–S7, placing the deposited Explorer images of `outputs/explorer/`. Figures 4 and 5 combine Explorer images with literature spectra and are not regenerated. Panel letters only; captions are in the article.
+`python code/make_outputs.py` refits both forms to the 11 donor-free structures in `data/structures.csv` (with the bootstrap of the article, 2000 resamples, seed 7) and redraws Figures 1–3, 6, 7 and S1–S7, placing the deposited Explorer images of `outputs/explorer/`. `python code/article_figures.py` draws Figures 1–3, 6 and 7 and Figure S4 as they appear in the article (white panels, no image cards). Figures 4 and 5 combine Explorer images with literature spectra and are not regenerated. Panel letters only; captions are in the article.
 
 ## Your own structures in the Explorer
 
@@ -85,13 +86,24 @@ In the data files and code the donor share Δ_sub of the article is written D_su
 * **d_Cα**: d_N4 plus the mean height of the eight α-carbons of each ring above its own N₄ plane.
 * **θ**: mean azimuthal offset between the coordinating nitrogens of the two rings, folded into 0–45°, averaged over the two choices of reference ring.
 
+## Version 1.0.1
+
+Additions to version 1.0.0 (nothing was removed, and the constants, the fitting set and every value of version 1.0.0 are unchanged):
+
+* Rigid rotation scans of YPc₂ and LaPc₂ (25–40°) and a constrained-relaxed rotation scan of LuPc₂ (25–40°; inputs of the constrained optimisations in `calculations/opt/`).
+* BLYP35 for the eight structures of the functional series (Figure S2 now shows five functionals).
+* CPCM in CHCl₃ and CH₂Cl₂ for LuPc₂ and in CHCl₃ for the X-ray geometry of the Lu member of the ABAB series (`data/solvent.csv`).
+* The homoleptic α-alkoxy double-deckers Tb[Pc(α-OCH(C₂H₅)₂)₄]₂ (CCDC 1855514) and Y[Pc(α-OCH(C₂H₅)₂)₄]₂ (CCDC 256203): X-ray entries with the measured bands, and TD-DFT with natural transition orbitals at their X-ray geometries (Tb replaced by Lu; 3-pentyloxy truncated to methoxy).
+* The Cs regioisomer of Lu-1 (optimised geometry, and one intermediate optimisation step).
+* `code/article_figures.py`, Figure S2 with BLYP35, the Explorer with all new structures, and this README.
+
 ## Scope
 
-The relation applies to homoleptic double-deckers with skew angles from about 25° (the lowest fitted point; the coupling node lies near 20°) to 45°. Heteroatom donors (thioether, amino) lower the band below the relation by up to about 7%, correlated with their share of the transition hole; the donor correction accounts for this. Heteroleptic sandwiches, whose rings are inequivalent, are outside its calibration; at computed geometries they follow it once the ring asymmetry (factor 1/√(1 − a²)) and the donor share are included (`code/heteroleptic.py`), but at the X-ray geometries of measured heteroleptics neither the relation nor TD-DFT reproduces the bands. Aryl groups lower the band by a route that D_sub does not register (`code/aryl.py`). In the test against unsubstituted LnPc2 the crystal structure of LaPc₂ (COD 7243588, 7243598) is not used, because its N₄–N₄ separation (2.82–2.86 Å) is shorter than that of NdPc₂, contrary to the lanthanide contraction.
+The relation applies to homoleptic double-deckers with skew angles from about 25° (the lowest fitted point; the coupling node lies near 20°) to 45°. Heteroatom donors (thioether, amino) lower the band below the relation by up to about 7%, correlated with their share of the transition hole; the donor correction accounts for this. Heteroleptic sandwiches, whose rings are inequivalent, are outside its calibration; at computed geometries they follow it once the ring asymmetry (factor 1/√(1 − a²)) and the donor share are included (`code/heteroleptic.py`), but at the X-ray geometries of measured heteroleptics neither the relation nor TD-DFT reproduces the bands. Aryl groups lower the band by a route that D_sub does not register (`code/aryl.py`). In the test against unsubstituted LnPc2 the crystal structures of LaPc₂ (COD 7243588, 7243598) are not used: their N₄–N₄ separation (2.82–2.86 Å) is shorter than that of NdPc₂ and their La–N distances (2.421 and 2.432 Å) shorter than the Pr–N distance (2.479 Å), contrary to the lanthanide contraction, and the displacement parameter of the metal relative to that of the coordinating nitrogen (Ueq(M)/Ueq(N1) = 0.35 and 0.37, against 0.51–0.95 for the other structures of the series) points to a problem with these refinements. With them, the relation lies 25–29% above the measured La bands. For relaxed structures the relation is reliable above about 35°: when LuPc₂ is reoptimised at fixed skew angles (`LuPc2bare_relax*` in `data/structures.csv`), its rings separate as the angle closes and the relation underestimates the band by 1, 3, 8 and 22% at 40, 35, 30 and 25°; every measured structure lies at 41–45°.
 
 ## Methods in brief
 
-Geometries: PBE0-D3BJ/def2-SVP. Excited states: CAM-B3LYP/def2-TZVP, RIJCOSX, unrestricted, ORCA 6.1.1. Natural transition orbitals at the same level, with the IV state identified by its energy (within 50 cm⁻¹ of the reference calculation, at least 12 roots). NTO cubes plotted from the transition orbitals without SCF iterations. CASSCF(3,2)/SC-NEVPT2 from quasi-restricted orbitals, with FIC-NEVPT2 and CAS(3,6) checks. Details are in the article and its Supporting Information.
+Geometries: PBE0-D3BJ/def2-SVP. Excited states: CAM-B3LYP/def2-TZVP, RIJCOSX, unrestricted, Tamm–Dancoff approximation (the ORCA default, stated as operative in every output), ORCA 6.1.1; functional series also with B3LYP, PBE0, ωB97X-D3 and BLYP35. Natural transition orbitals at the same level, with the IV state identified by its energy (within 50 cm⁻¹ of the reference calculation, at least 12 roots). NTO cubes plotted from the transition orbitals without SCF iterations. CASSCF(3,2)/SC-NEVPT2 from quasi-restricted orbitals, with FIC-NEVPT2 and CAS(3,6) checks. Details are in the article and its Supporting Information.
 
 ## Licence
 

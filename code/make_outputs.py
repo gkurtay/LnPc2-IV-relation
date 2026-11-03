@@ -157,16 +157,16 @@ def figS1(P,nboot=2000):
     nd=np.degrees(np.arccos(np.clip(B[:,2],-1,1)))/4; q=lambda v:np.percentile(v,[0.5,99.5]); pad=lambda a,b:(a-0.08*(b-a),b+0.08*(b-a))
     fig=plt.figure(figsize=(7.0,2.4)); gs=GridSpec(1,3,figure=fig,wspace=0.45); A,Bx,Cx=[fig.add_subplot(gs[0,i]) for i in range(3)]
     A.scatter(B[:,1],B[:,0],s=3,c=MC['Lu'],alpha=0.25,lw=0); A.scatter([P['Ca'][1]],[P['Ca'][0]],s=30,c=INK,edgecolors='white',zorder=3)
-    A.set_xlim(*pad(*q(B[:,1]))); A.set_ylim(*pad(*q(B[:,0]))); A.set_xlabel('κ (Å$^{-1}$)'); A.set_ylabel('A (10$^5$ cm$^{-1}$)'); A.text(0.97,0.05,'r = %.3f'%np.corrcoef(B[:,0],B[:,1])[0,1],transform=A.transAxes,ha='right',fontsize=6.5,color=INK2,bbox=STATBOX); harf(A,'a',-0.32,1.02)
+    A.set_xlim(*pad(*q(B[:,1]))); A.set_ylim(*pad(*q(B[:,0]))); A.set_xlabel('κ (Å$^{-1}$)'); A.set_ylabel('A (10$^5$ cm$^{-1}$)'); A.text(0.97,0.05,('r = %.3f'%np.corrcoef(B[:,0],B[:,1])[0,1]).replace('-','−'),transform=A.transAxes,ha='right',fontsize=6.5,color=INK2,bbox=STATBOX); harf(A,'a',-0.32,1.02)
     Bx.scatter(B[:,1],B[:,2],s=3,c=MC['Lu'],alpha=0.25,lw=0); Bx.scatter([P['Ca'][1]],[P['Ca'][2]],s=30,c=INK,edgecolors='white',zorder=3)
-    Bx.set_xlim(*pad(*q(B[:,1]))); Bx.set_ylim(*pad(*q(B[:,2]))); Bx.set_xlabel('κ (Å$^{-1}$)'); Bx.set_ylabel('β'); Bx.text(0.97,0.05,'r = %.3f'%np.corrcoef(B[:,1],B[:,2])[0,1],transform=Bx.transAxes,ha='right',fontsize=6.5,color=INK2,bbox=STATBOX); harf(Bx,'b',-0.32,1.02)
+    Bx.set_xlim(*pad(*q(B[:,1]))); Bx.set_ylim(*pad(*q(B[:,2]))); Bx.set_xlabel('κ (Å$^{-1}$)'); Bx.set_ylabel('β'); Bx.text(0.97,0.05,('r = %.3f'%np.corrcoef(B[:,1],B[:,2])[0,1]).replace('-','−'),transform=Bx.transAxes,ha='right',fontsize=6.5,color=INK2,bbox=STATBOX); harf(Bx,'b',-0.32,1.02)
     a_,b_=q(nd); Cx.hist(nd[(nd>=a_)&(nd<=b_)],bins=30,color=MC['Lu'],alpha=0.8); lo,hi=np.percentile(nd,[2.5,97.5]); [Cx.axvline(v,color=INK2,lw=0.7,ls=(0,(2.5,2))) for v in (lo,hi)]
     Cx.set_xlabel('coupling node θ$_0$ (°)'); Cx.set_ylabel('bootstrap resamples'); ygrid(Cx); harf(Cx,'c',-0.32,1.02)
     save(fig,'figS1_bootstrap')
-FUN=[('CAM-B3LYP',INK),('B3LYP',MC['Lu']),('PBE0',MC['Y']),('ωB97X-D3',MC['La'])]
+FUN=[('CAM-B3LYP',INK),('B3LYP',MC['Lu']),('PBE0',MC['Y']),('ωB97X-D3',MC['La']),('BLYP35','#b0417a')]
 def figS2():
     ids={'CAM-B3LYP':['LuPc2bare_rot25','LuPc2bare_rot30','LuPc2bare_rot35','LuPc2bare_rot40','LuPc2bare_gas']}
-    for f,suf in (('B3LYP','b3lyp'),('PBE0','pbe0'),('ωB97X-D3','wb97xd')): ids[f]=['LuRot%d_%s'%(t,suf) for t in (25,30,35,40)]+['LuPc2bare_'+suf]
+    for f,suf in (('B3LYP','b3lyp'),('PBE0','pbe0'),('ωB97X-D3','wb97xd'),('BLYP35','blyp35')): ids[f]=['LuRot%d_%s'%(t,suf) for t in (25,30,35,40)]+['LuPc2bare_'+suf]
     fig=plt.figure(figsize=(7.0,2.6)); gs=GridSpec(1,2,figure=fig,wspace=0.32); A,Bx=fig.add_subplot(gs[0,0]),fig.add_subplot(gs[0,1]); tt=np.linspace(15,45,120); rows=[]
     for f,c in FUN:
         th=np.array([fl(k,'theta_deg') for k in ids[f]]); v=np.array([fl(k,'IV_cm-1') for k in ids[f]]); y=v/v[-1]
@@ -177,7 +177,7 @@ def figS2():
     Bx.set_xlim(22,46); Bx.set_xlabel('skew angle θ (°)'); Bx.set_ylabel('IV energy (cm$^{-1}$)'); ygrid(Bx); harf(Bx,'b',-0.2,1.02)
     save(fig,'figS2_functionals'); return rows
 def figS3():
-    R=list(csv.DictReader(open(os.path.join(DATA,'solvent.csv'))))
+    R=[r for r in csv.DictReader(open(os.path.join(DATA,'solvent.csv'))) if r.get('solvent','chlorobenzene')=='chlorobenzene']   # Figure S3: chlorobenzene series
     fig,A=plt.subplots(figsize=(3.4,2.5))
     for m in ('Lu','La'):
         rr=[r for r in R if r['metal']==m]; A.scatter([float(r['theta_deg']) for r in rr],[float(r['ratio']) for r in rr],s=28,marker=MK[m],c=MC[m],edgecolors='white',linewidths=0.7,zorder=3,label=m)
@@ -199,7 +199,7 @@ def figS4():
     A.plot(x,[M[m]['iv'][1] for m in L],color=MUT,lw=1.0); A.scatter(x,[M[m]['iv'][1] for m in L],s=24,facecolors='white',edgecolors=MUT,linewidths=1.0,zorder=3,label='IV2')
     for k,col,mk,lab in (('C',MC['Lu'],'D','Cα form × scale (θ = 45°)'),('N',MC['Y'],'s','N$_4$ form × scale (θ = 45°)')):
         xx=[i for i,m in zip(x,L) if M[m][k]]; A.scatter(xx,[np.mean(M[m][k]) for m in L if M[m][k]],s=22,marker=mk,c=col,edgecolors='white',linewidths=0.6,zorder=4,label=lab)
-    A.set_xticks(x); A.set_xticklabels(L); A.set_ylabel('IV energy (cm$^{-1}$)'); A.legend(loc='upper left',fontsize=6.0); ygrid(A)
+    A.set_xticks(x); A.set_xticklabels(L); A.set_ylabel('IV energy (cm$^{-1}$)'); A.legend(loc='lower right',fontsize=6.0); ygrid(A)
     save(fig,'figS5_unsubstituted_LnPc2')
 def figS5():
     R={r['id']:r for r in csv.DictReader(open(os.path.join(DATA,'aryl_series.csv')))}; T=[R[k] for k in ('t35','xray','t70','t90')]; c0=R['core']

@@ -8,8 +8,9 @@ from matplotlib.patches import FancyBboxPatch
 from matplotlib.collections import PathCollection
 from matplotlib.image import AxesImage
 
-BG = '#f6f7fb'          # panel background
-CARD_EDGE = '#dfe3ec'
+BG = 'white'            # panel background (v30: white)
+GRID = '#e8eaef'; SPINE = '#b9bdc7'
+CARD_EDGE = '#dde1e8'
 MC = {'Lu': '#2f5fd0', 'Y': '#e3792f', 'La': '#1a9e77', 'Eu': '#5b5f7a'}
 SHADOW = [pe.SimplePatchShadow(offset=(0.8, -0.8), shadow_rgbFace='#1b2a4a', alpha=0.18), pe.Normal()]
 STATBOX = dict(boxstyle='round,pad=0.35,rounding_size=0.6', fc='white', ec='#d5d9e4', lw=0.6)
@@ -30,10 +31,9 @@ def _card(ax):
             w = b[..., :3].astype(int).sum(2) > 735
             if b.shape[2] == 4:
                 w |= b[..., 3] < 20; b[w, 3] = 255
-            b[w, 0], b[w, 1], b[w, 2] = 246, 247, 251
+            b[w, 0], b[w, 1], b[w, 2] = 255, 255, 255
             im.set_data(b)
-    ax.add_patch(FancyBboxPatch((-0.02, -0.02), 1.04, 1.04, boxstyle='round,pad=0,rounding_size=0.04',
-                                transform=ax.transAxes, fc=BG, ec=CARD_EDGE, lw=0.7, zorder=-5, clip_on=False))
+    # v31: no card frame around structure images (white background only)
 
 
 def polish(fig, cards=True):
@@ -47,6 +47,9 @@ def polish(fig, cards=True):
         if not ax.axison:
             if cards and ax.get_images() and not getattr(ax, 'nocard', False):
                 _card(ax)
+                for t in ax.texts:   # v30: panel letter outside the card, above its upper left corner
+                    if t.get_fontweight() in ('bold', 700) and abs(t.get_fontsize() - 9) < 0.1 and len(t.get_text()) == 1:
+                        t.set_position((-0.02, 1.035)); t.set_va('bottom'); t.set_ha('left')
             continue
         if getattr(ax, 'keep_style', False):
             continue
@@ -63,14 +66,13 @@ def polish(fig, cards=True):
             if abs(fc[0] - 0.945) < 0.01 and abs(fc[2] - 0.925) < 0.01:
                 pch.set_facecolor(MC['Lu']); pch.set_alpha(0.12)
         for s in ('left', 'bottom'):
+            ax.spines[s].set_visible(True); ax.spines[s].set_color(SPINE); ax.spines[s].set_linewidth(0.6)
+        for s in ('top', 'right'):
             ax.spines[s].set_visible(False)
-        ax.tick_params(length=0)
-        ax.grid(True, color='white', lw=0.9)
+        ax.tick_params(length=2.2, width=0.6, color=SPINE)
+        ax.grid(True, color=GRID, lw=0.55)
         ax.set_axisbelow(True)
-        for c in ax.collections:
-            if isinstance(c, PathCollection) and len(c.get_offsets()) and not c.get_path_effects():
-                c.set_path_effects(SHADOW)
-        for l in ax.lines:
-            if l.get_marker() not in (None, 'None', '', ' ') and l.get_linestyle() in ('None', '', ' ') and not l.get_path_effects():
-                l.set_path_effects(SHADOW)
+        for c in ax.collections:   # v30: no marker shadows
+            if c.get_path_effects() and any(isinstance(e, pe.SimplePatchShadow) for e in c.get_path_effects()):
+                c.set_path_effects([])
     return fig

@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite it as below."
 title: "Structure–spectrum relation for the intervalence band of lanthanide bis(phthalocyaninato) double-deckers: data, code and LnPc2 Explorer"
-version: 1.0.0
+version: 1.0.1
 license: MIT
 repository-code: "https://github.com/gkurtay/LnPc2-IV-relation"
-doi: "10.5281/zenodo.23839079"
+doi: "10.5281/zenodo.23839078"
 url: "https://gkurtay.github.io/LnPc2-IV-relation/"
 authors:
   - family-names: "Kurtay"

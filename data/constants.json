@@ -29,5 +29,5 @@
   "scale_exp_without_donor_correction": 0.6879319397698076
  },
  "donor_correction": "nu = nu_relation * (1 + c * D_sub), where D_sub is the substituent share of the IV hole minus that of the particle (natural transition orbitals, code/nto_partition.py); D_sub = 0 without heteroatom donors. The scale factors apply to the corrected relation.",
- "validity": "Homoleptic double-deckers with skew angles from about 25 deg (lowest fitted point; coupling node near 20 deg) to 45 deg. Heteroleptic sandwiches are outside the calibration."
+ "validity": "Homoleptic double-deckers with skew angles from about 25 deg (lowest fitted point; coupling node near 20 deg) to 45 deg; for relaxed structures, whose rings separate as the angle closes, above about 35 deg. Heteroleptic sandwiches are outside the calibration."
 }

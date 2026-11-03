@@ -1,8 +1,11 @@
-id_solvent,id_gas,structure,metal,theta_deg,IV_CPCM_cm-1,IV_gas_cm-1,ratio
-LuPc2bare_cpcm,LuPc2bare_gas,LuPc₂,Lu,44.968,9429,10100,0.934
-LuPc4_cb_td2,LuPc4_td2,"Lu, phenothiazinyl skeleton (Lu-4)",Lu,44.972,9207.4,9706,0.949
-LuPc3_cb_td2,LuPc3_td2,"Lu, bis(4-methoxyphenyl)amino skeleton (Lu-3)",Lu,37.622,7628.3,8302,0.919
-LuPc8_cb_td2,LuPc8_td,"Lu-8, N-methylphenothiazinyl",Lu,29.947,4621.4,5156,0.896
-LuPc2bare_r30_cb_td2,LuPc2bare_rot30,LuPc₂ rotated to 30°,Lu,30.052,5249,5829,0.900
-LaPc2bare_cb_td2,LaPc2bare_td,LaPc₂,La,44.966,6446,7169,0.899
-LaPc2_cb_td2,LaPc2_td,"La-2, octakis(methylthio)",La,30.103,3551,4084,0.869
+id_solvent,id_gas,structure,metal,theta_deg,IV_CPCM_cm-1,IV_gas_cm-1,ratio,solvent
+LuPc2bare_cpcm,LuPc2bare_gas,LuPc₂,Lu,44.968,9429,10100,0.934,chlorobenzene
+LuPc4_cb_td2,LuPc4_td2,"Lu, phenothiazinyl skeleton (Lu-4)",Lu,44.972,9207.4,9706,0.949,chlorobenzene
+LuPc3_cb_td2,LuPc3_td2,"Lu, bis(4-methoxyphenyl)amino skeleton (Lu-3)",Lu,37.622,7628.3,8302,0.919,chlorobenzene
+LuPc8_cb_td2,LuPc8_td,"Lu-8, N-methylphenothiazinyl",Lu,29.947,4621.4,5156,0.896,chlorobenzene
+LuPc2bare_r30_cb_td2,LuPc2bare_rot30,LuPc₂ rotated to 30°,Lu,30.052,5249,5829,0.900,chlorobenzene
+LaPc2bare_cb_td2,LaPc2bare_td,LaPc₂,La,44.966,6446,7169,0.899,chlorobenzene
+LaPc2_cb_td2,LaPc2_td,"La-2, octakis(methylthio)",La,30.103,3551,4084,0.869,chlorobenzene
+LuPc2bare_cpcm_chcl3,LuPc2bare_gas,LuPc₂,Lu,44.970,9491.0,10100,0.940,CHCl₃
+LuPc2bare_cpcm_ch2cl2,LuPc2bare_gas,LuPc₂,Lu,44.970,9496.5,10100,0.940,CH₂Cl₂
+LuAB_k_cpcm_chcl3,LuAB_k_td2,"Lu[Pc(SC₆H₁₃)₄]₂ (ABAB), X-ray geometry",Lu,44.521,9281.1,9862,0.941,CHCl₃
