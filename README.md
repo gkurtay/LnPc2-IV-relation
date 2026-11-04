@@ -4,7 +4,7 @@ Data and software accompanying
 
 > G. Kurtay, M. İnce, *Inter-ring distance and skew angle control the near-infrared intervalence band of lanthanide bis(phthalocyaninato) double-deckers* (in preparation; reference to be updated on publication).
 
-Source code and Explorer: https://github.com/gkurtay/LnPc2-IV-relation (Explorer online: https://gkurtay.github.io/LnPc2-IV-relation/). Archived record, including all calculation files: Zenodo, https://doi.org/10.5281/zenodo.23839078 (all versions; resolves to the latest). This is version 1.0.1, the version that corresponds to the article; version 1.0.0 is https://doi.org/10.5281/zenodo.23839079.
+Source code and Explorer: https://github.com/gkurtay/LnPc2-IV-relation (Explorer online: https://gkurtay.github.io/LnPc2-IV-relation/). Archived record, including all calculation files: Zenodo, https://doi.org/10.5281/zenodo.23839078 (all versions; resolves to the latest). This is version 1.0.1 (https://doi.org/10.5281/zenodo.23933597), the version that corresponds to the article; version 1.0.0 is https://doi.org/10.5281/zenodo.23839079.
 
 ## Contents
 
